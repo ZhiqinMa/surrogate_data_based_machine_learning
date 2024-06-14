@@ -19,7 +19,7 @@ Python 3.6 and MATLAB 2018b are required to generate surrogate data. To install 
 ```bash
 conda create -n surr_mat python=3.8
 conda activate surr_mat
-pip install -r requirements_surr_mat.txt`
+pip install -r requirements_surr_mat.txt
 ```
 
 The Versions of Python and MATLAB have a one-to-one correspondence, otherwise the connection cannot be established, see below for the correspondence: [Versions of Python Compatible with MATLAB Products by Release - MATLAB & Simulink (mathworks.cn)](https://ww2.mathworks.cn/support/requirements/python-compatibility.html)
