@@ -1,4 +1,4 @@
-# Predicting critical transitions with surrogate data-based machine learning   2222
+# Predicting critical transitions with surrogate data-based machine learning
 
 This repository contains code to accompany the publication
 
