@@ -1,0 +1,2114 @@
+---------------------------- Run start python scripts -----------------------------
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: SVM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/chick_heart/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/data/merge_surrogate_FT_simples_1000_train_8.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: SVM_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 9.2 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: SVM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_SVM_model_train_8.txt
+# 1 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 2 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 3 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 4 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 5 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 6 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 7 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 8 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 9 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 10 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+------------------ summarize results -------------------------
+ML_model: SVM_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 3.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+tsid: 14
+features: 150
+sw_width: 150
+
+03_sliding_window_data directory already exists!
+14.shape: (300, 2)
+success-> sliding_window_features_shape (real=(300-150+1, 150)):  (151, 150)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+ML_model: SVM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (151, 150)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (151, 1)
+y_pred_list.shape: (151, 2)
+y_pred_list.shape: (151, 3)
+y_pred_list.shape: (151, 4)
+y_pred_list.shape: (151, 5)
+y_pred_list.shape: (151, 6)
+y_pred_list.shape: (151, 7)
+y_pred_list.shape: (151, 8)
+y_pred_list.shape: (151, 9)
+y_pred_list.shape: (151, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+ML_model: SVM_model
+sw_width: 150
+tsid: 14
+
+05_data_ews directory already exists!
+05_figures_ews directory already exists!
+sliding_window_14: 150
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [14]
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[14].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[14].png
+Ran in 1.49s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [14]
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_SVM_model_[14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_SVM_model_[14].png
+Ran in 1.44s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8]
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[8].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[8].png
+Ran in 1.45s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8]
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_SVM_model_[8].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_SVM_model_[8].png
+Ran in 1.47s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8,14]
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[8,14].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[8,14].png
+Ran in 1.55s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8,14]
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_SVM_model_[8,14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_SVM_model_[8,14].png
+Ran in 1.52s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+Complete for forced tsid=14
+Complete for forced tsid=15
+Complete for forced tsid=16
+Complete for forced tsid=17
+Complete for forced tsid=18
+Complete for forced tsid=19
+Complete for forced tsid=20
+Complete for forced tsid=21
+Complete for forced tsid=22
+Complete for forced tsid=23
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+Complete for null tsid=14
+Complete for null tsid=15
+Complete for null tsid=16
+Complete for null tsid=17
+Complete for null tsid=18
+Complete for null tsid=19
+Complete for null tsid=20
+Complete for null tsid=21
+Complete for null tsid=22
+Complete for null tsid=23
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_all.csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_all.png
+Ran in 3.72s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+Complete for forced tsid=14
+Complete for forced tsid=15
+Complete for forced tsid=16
+Complete for forced tsid=17
+Complete for forced tsid=18
+Complete for forced tsid=19
+Complete for forced tsid=20
+Complete for forced tsid=21
+Complete for forced tsid=22
+Complete for forced tsid=23
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+Complete for null tsid=14
+Complete for null tsid=15
+Complete for null tsid=16
+Complete for null tsid=17
+Complete for null tsid=18
+Complete for null tsid=19
+Complete for null tsid=20
+Complete for null tsid=21
+Complete for null tsid=22
+Complete for null tsid=23
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_SVM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_SVM_model_all.png
+Ran in 4.98s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: Bagging_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/chick_heart/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/data/merge_surrogate_FT_simples_1000_train_8.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Bagging_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 165.6 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: Bagging_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_Bagging_model_train_8.txt
+# 1 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 2 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 3 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 4 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 5 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 6 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 7 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 8 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 9 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 10 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+------------------ summarize results -------------------------
+ML_model: Bagging_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 20.5 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+tsid: 14
+features: 150
+sw_width: 150
+
+03_sliding_window_data directory already exists!
+14.shape: (300, 2)
+success-> sliding_window_features_shape (real=(300-150+1, 150)):  (151, 150)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+ML_model: Bagging_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (151, 150)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (151, 1)
+y_pred_list.shape: (151, 2)
+y_pred_list.shape: (151, 3)
+y_pred_list.shape: (151, 4)
+y_pred_list.shape: (151, 5)
+y_pred_list.shape: (151, 6)
+y_pred_list.shape: (151, 7)
+y_pred_list.shape: (151, 8)
+y_pred_list.shape: (151, 9)
+y_pred_list.shape: (151, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+ML_model: Bagging_model
+sw_width: 150
+tsid: 14
+
+05_data_ews directory already exists!
+05_data_ews/FT directory already exists!
+05_figures_ews directory already exists!
+05_figures_ews/FT directory already exists!
+sliding_window_14: 150
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [14]
+ML_model: Bagging_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Bagging_model_[14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Bagging_model_[14].png
+Ran in 2.00s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8]
+ML_model: Bagging_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Bagging_model_[8].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Bagging_model_[8].png
+Ran in 2.00s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8,14]
+ML_model: Bagging_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Bagging_model_[8,14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Bagging_model_[8,14].png
+Ran in 2.31s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: Bagging_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+Complete for forced tsid=14
+Complete for forced tsid=15
+Complete for forced tsid=16
+Complete for forced tsid=17
+Complete for forced tsid=18
+Complete for forced tsid=19
+Complete for forced tsid=20
+Complete for forced tsid=21
+Complete for forced tsid=22
+Complete for forced tsid=23
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+Complete for null tsid=14
+Complete for null tsid=15
+Complete for null tsid=16
+Complete for null tsid=17
+Complete for null tsid=18
+Complete for null tsid=19
+Complete for null tsid=20
+Complete for null tsid=21
+Complete for null tsid=22
+Complete for null tsid=23
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Bagging_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Bagging_model_all.png
+Ran in 11.13s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: RF_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/chick_heart/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/data/merge_surrogate_FT_simples_1000_train_8.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: RF_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 19.9 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: RF_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_RF_model_train_8.txt
+# 1 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 2 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 3 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 4 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 5 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 6 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 7 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 8 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 9 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 10 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+------------------ summarize results -------------------------
+ML_model: RF_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 6.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+tsid: 14
+features: 150
+sw_width: 150
+
+03_sliding_window_data directory already exists!
+14.shape: (300, 2)
+success-> sliding_window_features_shape (real=(300-150+1, 150)):  (151, 150)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+ML_model: RF_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (151, 150)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (151, 1)
+y_pred_list.shape: (151, 2)
+y_pred_list.shape: (151, 3)
+y_pred_list.shape: (151, 4)
+y_pred_list.shape: (151, 5)
+y_pred_list.shape: (151, 6)
+y_pred_list.shape: (151, 7)
+y_pred_list.shape: (151, 8)
+y_pred_list.shape: (151, 9)
+y_pred_list.shape: (151, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+ML_model: RF_model
+sw_width: 150
+tsid: 14
+
+05_data_ews directory already exists!
+05_data_ews/FT directory already exists!
+05_figures_ews directory already exists!
+05_figures_ews/FT directory already exists!
+sliding_window_14: 150
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [14]
+ML_model: RF_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_RF_model_[14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_RF_model_[14].png
+Ran in 1.88s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8]
+ML_model: RF_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_RF_model_[8].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_RF_model_[8].png
+Ran in 1.88s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8,14]
+ML_model: RF_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_RF_model_[8,14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_RF_model_[8,14].png
+Ran in 2.16s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: RF_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+Complete for forced tsid=14
+Complete for forced tsid=15
+Complete for forced tsid=16
+Complete for forced tsid=17
+Complete for forced tsid=18
+Complete for forced tsid=19
+Complete for forced tsid=20
+Complete for forced tsid=21
+Complete for forced tsid=22
+Complete for forced tsid=23
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+Complete for null tsid=14
+Complete for null tsid=15
+Complete for null tsid=16
+Complete for null tsid=17
+Complete for null tsid=18
+Complete for null tsid=19
+Complete for null tsid=20
+Complete for null tsid=21
+Complete for null tsid=22
+Complete for null tsid=23
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_RF_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_RF_model_all.png
+Ran in 7.83s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: GBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/chick_heart/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/data/merge_surrogate_FT_simples_1000_train_8.csv
+>#1: [ 99.91796555  98.66776059 100.         100.          99.93358337
+ 100.         100.          99.89256134  99.97265198 100.
+  99.87694832 100.          99.69526489  99.96483826  99.36318175]
+>#2: [ 99.91405914  98.66385373 100.         100.          99.93358337
+ 100.         100.          99.8964682   99.96874512 100.
+  99.86132271 100.          99.69526489  99.98827942  99.36513518]
+>#3: [ 99.92187195  98.67166745 100.         100.          99.94530395
+ 100.         100.          99.89256134  99.96874512 100.
+  99.88476112 100.          99.69526489  99.96483826  99.36904204]
+>#4: [ 99.91405914  98.66385373 100.         100.          99.93749023
+ 100.         100.          99.8964682   99.97265198 100.
+  99.88476112 100.          99.67182372  99.95311767  99.36904204]
+>#5: [ 99.91796555  98.66776059 100.         100.          99.93749023
+ 100.         100.          99.8964682   99.97265198 100.
+  99.88085472 100.          99.66205657  99.95311767  99.40420378]
+>#6: [ 99.92968475  98.66776059 100.         100.          99.92967651
+ 100.         100.          99.8964682   99.97265198 100.
+  99.87499512 100.          99.66205657  99.96483826  99.35927489]
+>#7: [ 99.91405914  98.67166745 100.         100.          99.92576965
+ 100.         100.          99.90037506  99.96874512 100.
+  99.86913551 100.          99.66791686  99.96483826  99.37099547]
+>#8: [ 99.92187195  98.67166745 100.         100.          99.92967651
+ 100.         100.          99.8964682   99.97265198 100.
+  99.88476112 100.          99.66596343  99.96483826  99.42959837]
+>#9: [ 99.91405914  98.66776059 100.         100.          99.94139709
+ 100.         100.          99.89256134  99.96874512 100.
+  99.87694832 100.          99.66596343  99.96483826  99.37685576]
+>#10: [ 99.92577835  98.66776059 100.         100.          99.93749023
+ 100.         100.          99.88474762  99.97265198 100.
+  99.88476112 100.          99.69526489  99.95311767  99.40420378]
+------------------ summarize results -------------------------
+ML_model: GBM_model
+scores: [array([ 99.91796555,  98.66776059, 100.        , 100.        ,
+        99.93358337, 100.        , 100.        ,  99.89256134,
+        99.97265198, 100.        ,  99.87694832, 100.        ,
+        99.69526489,  99.96483826,  99.36318175]), array([ 99.91405914,  98.66385373, 100.        , 100.        ,
+        99.93358337, 100.        , 100.        ,  99.8964682 ,
+        99.96874512, 100.        ,  99.86132271, 100.        ,
+        99.69526489,  99.98827942,  99.36513518]), array([ 99.92187195,  98.67166745, 100.        , 100.        ,
+        99.94530395, 100.        , 100.        ,  99.89256134,
+        99.96874512, 100.        ,  99.88476112, 100.        ,
+        99.69526489,  99.96483826,  99.36904204]), array([ 99.91405914,  98.66385373, 100.        , 100.        ,
+        99.93749023, 100.        , 100.        ,  99.8964682 ,
+        99.97265198, 100.        ,  99.88476112, 100.        ,
+        99.67182372,  99.95311767,  99.36904204]), array([ 99.91796555,  98.66776059, 100.        , 100.        ,
+        99.93749023, 100.        , 100.        ,  99.8964682 ,
+        99.97265198, 100.        ,  99.88085472, 100.        ,
+        99.66205657,  99.95311767,  99.40420378]), array([ 99.92968475,  98.66776059, 100.        , 100.        ,
+        99.92967651, 100.        , 100.        ,  99.8964682 ,
+        99.97265198, 100.        ,  99.87499512, 100.        ,
+        99.66205657,  99.96483826,  99.35927489]), array([ 99.91405914,  98.67166745, 100.        , 100.        ,
+        99.92576965, 100.        , 100.        ,  99.90037506,
+        99.96874512, 100.        ,  99.86913551, 100.        ,
+        99.66791686,  99.96483826,  99.37099547]), array([ 99.92187195,  98.67166745, 100.        , 100.        ,
+        99.92967651, 100.        , 100.        ,  99.8964682 ,
+        99.97265198, 100.        ,  99.88476112, 100.        ,
+        99.66596343,  99.96483826,  99.42959837]), array([ 99.91405914,  98.66776059, 100.        , 100.        ,
+        99.94139709, 100.        , 100.        ,  99.89256134,
+        99.96874512, 100.        ,  99.87694832, 100.        ,
+        99.66596343,  99.96483826,  99.37685576]), array([ 99.92577835,  98.66776059, 100.        , 100.        ,
+        99.93749023, 100.        , 100.        ,  99.88474762,
+        99.97265198, 100.        ,  99.88476112, 100.        ,
+        99.69526489,  99.95311767,  99.40420378])]
+Accuracy mean (std): 99.819% (0.347)
+
+Running time 248.6 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: GBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_GBM_model_train_8.txt
+# 1 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          97.05513784  97.90100251  98.55889724  98.46779237
+  98.68421053  96.17794486  98.40225564  98.74686717  98.31144465]:
+# 2 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          96.89849624  97.90100251  98.62155388  98.49906191
+  98.68421053  96.17794486  98.40225564  98.74686717  98.31144465]:
+# 3 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          96.89849624  97.90100251  98.55889724  98.46779237
+  98.68421053  96.17794486  98.46491228  98.74686717  98.37398374]:
+# 4 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          96.92982456  97.90100251  98.46491228  98.53033146
+  98.68421053  96.17794486  98.46491228  98.74686717  98.37398374]:
+# 5 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          96.89849624  97.90100251  98.43358396  98.46779237
+  98.68421053  96.17794486  98.46491228  98.74686717  98.31144465]:
+# 6 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          97.08646617  97.90100251  98.55889724  98.46779237
+  98.68421053  96.17794486  98.40225564  98.77819549  98.31144465]:
+# 7 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          97.08646617  97.90100251  98.43358396  98.46779237
+  98.68421053  96.17794486  98.40225564  98.74686717  98.31144465]:
+# 8 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          97.02380952  97.90100251  98.55889724  98.46779237
+  98.68421053  96.17794486  98.46491228  98.77819549  98.31144465]:
+# 9 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          96.0839599   97.90100251  98.43358396  98.46779237
+  98.68421053  96.17794486  98.40225564  98.71553885  98.37398374]:
+# 10 >> score:[100.          98.68421053  98.77819549  97.36842105 100.
+ 100.          96.89849624  97.90100251  98.43358396  98.46779237
+  98.68421053  96.17794486  98.46491228  98.74686717  98.37398374]:
+------------------ summarize results -------------------------
+ML_model: GBM_model
+scores: [array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  97.05513784,  97.90100251,
+        98.55889724,  98.46779237,  98.68421053,  96.17794486,
+        98.40225564,  98.74686717,  98.31144465]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  96.89849624,  97.90100251,
+        98.62155388,  98.49906191,  98.68421053,  96.17794486,
+        98.40225564,  98.74686717,  98.31144465]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  96.89849624,  97.90100251,
+        98.55889724,  98.46779237,  98.68421053,  96.17794486,
+        98.46491228,  98.74686717,  98.37398374]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  96.92982456,  97.90100251,
+        98.46491228,  98.53033146,  98.68421053,  96.17794486,
+        98.46491228,  98.74686717,  98.37398374]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  96.89849624,  97.90100251,
+        98.43358396,  98.46779237,  98.68421053,  96.17794486,
+        98.46491228,  98.74686717,  98.31144465]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  97.08646617,  97.90100251,
+        98.55889724,  98.46779237,  98.68421053,  96.17794486,
+        98.40225564,  98.77819549,  98.31144465]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  97.08646617,  97.90100251,
+        98.43358396,  98.46779237,  98.68421053,  96.17794486,
+        98.40225564,  98.74686717,  98.31144465]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  97.02380952,  97.90100251,
+        98.55889724,  98.46779237,  98.68421053,  96.17794486,
+        98.46491228,  98.77819549,  98.31144465]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  96.0839599 ,  97.90100251,
+        98.43358396,  98.46779237,  98.68421053,  96.17794486,
+        98.40225564,  98.71553885,  98.37398374]), array([100.        ,  98.68421053,  98.77819549,  97.36842105,
+       100.        , 100.        ,  96.89849624,  97.90100251,
+        98.43358396,  98.46779237,  98.68421053,  96.17794486,
+        98.46491228,  98.74686717,  98.37398374])]
+Accuracy mean (std): 98.466% (1.055)
+
+Running time 28.4 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+tsid: 14
+features: 150
+sw_width: 150
+
+03_sliding_window_data directory already exists!
+14.shape: (300, 2)
+success-> sliding_window_features_shape (real=(300-150+1, 150)):  (151, 150)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+ML_model: GBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (151, 150)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (151, 1)
+y_pred_list.shape: (151, 2)
+y_pred_list.shape: (151, 3)
+y_pred_list.shape: (151, 4)
+y_pred_list.shape: (151, 5)
+y_pred_list.shape: (151, 6)
+y_pred_list.shape: (151, 7)
+y_pred_list.shape: (151, 8)
+y_pred_list.shape: (151, 9)
+y_pred_list.shape: (151, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+ML_model: GBM_model
+sw_width: 150
+tsid: 14
+
+05_data_ews directory already exists!
+05_data_ews/FT directory already exists!
+05_figures_ews directory already exists!
+05_figures_ews/FT directory already exists!
+sliding_window_14: 150
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [14]
+ML_model: GBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_GBM_model_[14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_GBM_model_[14].png
+Ran in 1.52s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8]
+ML_model: GBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_GBM_model_[8].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_GBM_model_[8].png
+Ran in 1.50s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8,14]
+ML_model: GBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_GBM_model_[8,14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_GBM_model_[8,14].png
+Ran in 1.58s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: GBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+Complete for forced tsid=14
+Complete for forced tsid=15
+Complete for forced tsid=16
+Complete for forced tsid=17
+Complete for forced tsid=18
+Complete for forced tsid=19
+Complete for forced tsid=20
+Complete for forced tsid=21
+Complete for forced tsid=22
+Complete for forced tsid=23
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+Complete for null tsid=14
+Complete for null tsid=15
+Complete for null tsid=16
+Complete for null tsid=17
+Complete for null tsid=18
+Complete for null tsid=19
+Complete for null tsid=20
+Complete for null tsid=21
+Complete for null tsid=22
+Complete for null tsid=23
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_GBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_GBM_model_all.png
+Ran in 3.07s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: Xgboost_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/chick_heart/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/data/merge_surrogate_FT_simples_1000_train_8.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Xgboost_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 10.8 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: Xgboost_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_Xgboost_model_train_8.txt
+# 1 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 2 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 3 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 4 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 5 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 6 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 7 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 8 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 9 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+# 10 >> score:[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]:
+------------------ summarize results -------------------------
+ML_model: Xgboost_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 5.3 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+tsid: 14
+features: 150
+sw_width: 150
+
+03_sliding_window_data directory already exists!
+14.shape: (300, 2)
+success-> sliding_window_features_shape (real=(300-150+1, 150)):  (151, 150)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+ML_model: Xgboost_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (151, 150)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (151, 1)
+y_pred_list.shape: (151, 2)
+y_pred_list.shape: (151, 3)
+y_pred_list.shape: (151, 4)
+y_pred_list.shape: (151, 5)
+y_pred_list.shape: (151, 6)
+y_pred_list.shape: (151, 7)
+y_pred_list.shape: (151, 8)
+y_pred_list.shape: (151, 9)
+y_pred_list.shape: (151, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+ML_model: Xgboost_model
+sw_width: 150
+tsid: 14
+
+05_data_ews directory already exists!
+05_data_ews/FT directory already exists!
+05_figures_ews directory already exists!
+05_figures_ews/FT directory already exists!
+sliding_window_14: 150
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [14]
+ML_model: Xgboost_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Xgboost_model_[14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Xgboost_model_[14].png
+Ran in 1.53s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8]
+ML_model: Xgboost_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Xgboost_model_[8].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Xgboost_model_[8].png
+Ran in 1.50s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8,14]
+ML_model: Xgboost_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Xgboost_model_[8,14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Xgboost_model_[8,14].png
+Ran in 1.59s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: Xgboost_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+Complete for forced tsid=14
+Complete for forced tsid=15
+Complete for forced tsid=16
+Complete for forced tsid=17
+Complete for forced tsid=18
+Complete for forced tsid=19
+Complete for forced tsid=20
+Complete for forced tsid=21
+Complete for forced tsid=22
+Complete for forced tsid=23
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+Complete for null tsid=14
+Complete for null tsid=15
+Complete for null tsid=16
+Complete for null tsid=17
+Complete for null tsid=18
+Complete for null tsid=19
+Complete for null tsid=20
+Complete for null tsid=21
+Complete for null tsid=22
+Complete for null tsid=23
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Xgboost_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Xgboost_model_all.png
+Ran in 3.29s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: LGBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/chick_heart/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/data/merge_surrogate_FT_simples_1000_train_8.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: LGBM_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 27.4 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ML_model: LGBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_LGBM_model_train_8.txt
+# 1 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 2 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 3 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 4 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 5 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 6 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 7 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 8 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 9 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+# 10 >> score:[ 99.56140351 100.         100.         100.         100.
+ 100.         100.         100.          99.74937343 100.
+ 100.          99.87468672 100.         100.         100.        ]:
+------------------ summarize results -------------------------
+ML_model: LGBM_model
+scores: [array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ]), array([ 99.56140351, 100.        , 100.        , 100.        ,
+       100.        , 100.        , 100.        , 100.        ,
+        99.74937343, 100.        , 100.        ,  99.87468672,
+       100.        , 100.        , 100.        ])]
+Accuracy mean (std): 99.946% (0.123)
+
+Running time 6.4 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+tsid: 14
+features: 150
+sw_width: 150
+
+03_sliding_window_data directory already exists!
+14.shape: (300, 2)
+success-> sliding_window_features_shape (real=(300-150+1, 150)):  (151, 150)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+ML_model: LGBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (151, 150)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (151, 1)
+y_pred_list.shape: (151, 2)
+y_pred_list.shape: (151, 3)
+y_pred_list.shape: (151, 4)
+y_pred_list.shape: (151, 5)
+y_pred_list.shape: (151, 6)
+y_pred_list.shape: (151, 7)
+y_pred_list.shape: (151, 8)
+y_pred_list.shape: (151, 9)
+y_pred_list.shape: (151, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: 8
+ID_test: 14
+Variable_label: chick_heart
+ML_model: LGBM_model
+sw_width: 150
+tsid: 14
+
+05_data_ews directory already exists!
+05_data_ews/FT directory already exists!
+05_figures_ews directory already exists!
+05_figures_ews/FT directory already exists!
+sliding_window_14: 150
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [14]
+ML_model: LGBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_LGBM_model_[14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_LGBM_model_[14].png
+Ran in 1.51s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8]
+ML_model: LGBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_LGBM_model_[8].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_LGBM_model_[8].png
+Ran in 1.49s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [8,14]
+ML_model: LGBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=14
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=14
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_LGBM_model_[8,14].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_LGBM_model_[8,14].png
+Ran in 1.60s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: LGBM_model
+repeats: 10
+features: 150
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+Complete for forced tsid=14
+Complete for forced tsid=15
+Complete for forced tsid=16
+Complete for forced tsid=17
+Complete for forced tsid=18
+Complete for forced tsid=19
+Complete for forced tsid=20
+Complete for forced tsid=21
+Complete for forced tsid=22
+Complete for forced tsid=23
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+Complete for null tsid=14
+Complete for null tsid=15
+Complete for null tsid=16
+Complete for null tsid=17
+Complete for null tsid=18
+Complete for null tsid=19
+Complete for null tsid=20
+Complete for null tsid=21
+Complete for null tsid=22
+Complete for null tsid=23
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_LGBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_LGBM_model_all.png
+Ran in 3.05s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+---------------------------- complete end ----------------------------

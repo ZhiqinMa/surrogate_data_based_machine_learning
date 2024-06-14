@@ -1,0 +1,148 @@
+---------------------------- 01 Run start python scripts -----------------------------
+tsid: 0
+Period: BMIII
+simples: 1000
+surr_type: AAFT
+n_features: 100
+
+../data directory already exists!
+df.shape: (721, 10)
+df_BMIII.shape: (184, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 92)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 92)
+surr1 successfully.
+surr_df.shape:  (2000, 93)
+
+------------------- saved file successfully -------------------
+tsid: 1
+Period: PI
+simples: 1000
+surr_type: AAFT
+n_features: 100
+
+../data directory already exists!
+df.shape: (721, 10)
+df_PI.shape: (165, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 82)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 82)
+surr1 successfully.
+surr_df.shape:  (2000, 83)
+
+------------------- saved file successfully -------------------
+tsid: 2
+Period: PII
+simples: 1000
+surr_type: AAFT
+n_features: 100
+
+../data directory already exists!
+df.shape: (721, 10)
+df_PII.shape: (246, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 100)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 100)
+surr1 successfully.
+surr_df.shape:  (2000, 101)
+
+------------------- saved file successfully -------------------
+tsid: 3
+Period: EPIII
+simples: 1000
+surr_type: AAFT
+n_features: 100
+
+../data directory already exists!
+df.shape: (721, 10)
+df_EPIII.shape: (59, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 29)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 29)
+surr1 successfully.
+surr_df.shape:  (2000, 30)
+
+------------------- saved file successfully -------------------
+tsid: 4
+Period: LPIII
+simples: 1000
+surr_type: AAFT
+n_features: 100
+
+../data directory already exists!
+df.shape: (721, 10)
+df_LPIII.shape: (67, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 33)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 33)
+surr1 successfully.
+surr_df.shape:  (2000, 34)
+
+------------------- saved file successfully -------------------
+---------------------------- 01 complete end ----------------------------
+
+---------------------------- 02 Run start merge ----------------------------
+tsid_0: 0
+tsid_1: 1
+ID_train_0: BMIII
+ID_train_1: PI
+surr_type: AAFT
+n_features: 101
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df0.shape:  (2000, 93)
+df1.shape: (2000, 83)
+---------------------
+concat dataframe: axis=1(col):
+df4_concat.shape:  (2000, 101)
+df3_concat.shape:  (2000, 101)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (4000, 101)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+tsid_2: 2
+tsid_3: 3
+tsid_4: 4
+ID_test_2: PII
+ID_test_3: EPIII
+ID_test_4: LPIII
+surr_type: AAFT
+n_features: 101
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df2.shape:  (2000, 101)
+df3.shape:  (2000, 30)
+df4.shape:  (2000, 34)
+---------------------
+concat dataframe: axis=1(col):
+df2_concat.shape:  (2000, 101)
+df3_concat.shape:  (2000, 101)
+df4_concat.shape:  (2000, 101)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (6000, 101)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+---------------------------- 02 complete merge end ----------------------------

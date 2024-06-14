@@ -1,0 +1,56 @@
+/* DATA DESCRIPTION:
+Citation:	Hennekam, Rick; Van der Bolt, Bregje; Van Nes, Egbert H; de Lange, Gert J; Scheffer, Marten; Reichart, Gert-Jan (2020): ICP-MS data for elements Al, Ba, Mo, Ti, and U in Mediterranean core 64PE406-E1. PANGAEA, https://doi.org/10.1594/PANGAEA.923190, 
+	In: Hennekam, R et al. (2020): Calibrated XRF-scanning data (mm resolution) and calibration data (ICP-OES and ICP-MS) for elements Al, Ba, Mo, Ti, and U in Mediterranean cores MS21, MS66, and 64PE406E1. PANGAEA, https://doi.org/10.1594/PANGAEA.923197
+Keyword(s):	Geochemistry; Mediterranean Sea; sapropels; trace elements; XRF-scanning
+Project(s):	Geochemical scanning of climate change analogues to assess future hypoxia in restricted basins (SCANALOGUE) (URI: https://www.nioz.nl/en/research/projects/4267-0)
+Coverage:	LATITUDE: 33.301670 * LONGITUDE: 33.395000
+	MINIMUM DEPTH, sediment/rock: 0.505 m * MAXIMUM DEPTH, sediment/rock: 8.570 m
+Event(s):	64PE406-E1 * LATITUDE: 33.301670 * LONGITUDE: 33.395000 * ELEVATION: -1760.0 m * CAMPAIGN: 64PE406 (NESSC EAST MED) (URI: http://melia.nioz.nl/phptoweb/core/melia-core.php?script=viewcruise.inc&crid=64PE406) * BASIS: Pelagia (URI: https://www.researchvessels.org/ship_info_display.asp?shipID=100) * METHOD/DEVICE: Piston corer (PC)
+Parameter(s):	AGE [ka BP] (Age) * GEOCODE * PI: Hennekam, Rick (https://orcid.org/0000-0002-8823-4519, rick.hennekam@nioz.nl)
+	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE * PI: Hennekam, Rick (https://orcid.org/0000-0002-8823-4519, rick.hennekam@nioz.nl)
+	Aluminium [mg/kg] (Al) * PI: Hennekam, Rick (https://orcid.org/0000-0002-8823-4519, rick.hennekam@nioz.nl) * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Barium [mg/kg] (Ba) * PI: Hennekam, Rick (https://orcid.org/0000-0002-8823-4519, rick.hennekam@nioz.nl) * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Molybdenum [mg/kg] (Mo) * PI: Hennekam, Rick (https://orcid.org/0000-0002-8823-4519, rick.hennekam@nioz.nl) * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Titanium [mg/kg] (Ti) * PI: Hennekam, Rick (https://orcid.org/0000-0002-8823-4519, rick.hennekam@nioz.nl) * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Uranium [mg/kg] (U) * PI: Hennekam, Rick (https://orcid.org/0000-0002-8823-4519, rick.hennekam@nioz.nl) * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+License:	Creative Commons Attribution 4.0 International (CC-BY-4.0)
+Size:	185 data points
+*/
+Age [ka BP]	Depth sed [m]	Al [mg/kg]	Ba [mg/kg]	Mo [mg/kg]	Ti [mg/kg]	U [mg/kg]
+29.698	0.505	57200.884	169.731	1.042	4832.601	1.538
+41.249	0.795	55899.785	169.733	0.982	4842.342	1.518
+42.444	0.825	56725.112	234.567	1.853	4945.673	1.586
+50.410	1.025	63935.877	198.773	1.118	5574.453	1.597
+53.596	1.105	53700.841	148.216	1.187	4744.749	1.452
+58.973	1.240	66363.777	189.119	1.101	5626.121	1.705
+63.354	1.350	59417.766	147.206	1.006	4759.768	1.630
+84.158	1.880	57315.722	1088.429	53.553	4070.439	14.367
+90.164	2.090	68956.060	171.422	1.012	5784.093	5.215
+94.263	2.245	48355.878	127.033	0.636	4178.665	2.404
+106.409	2.705	58979.247	857.602	36.664	4485.533	7.369
+107.082	2.735	66126.596	789.572	33.604	5037.142	10.802
+112.786	2.985	62858.423	142.688	0.625	5338.765	3.426
+122.491	3.410	54601.192	1658.088	89.545	4197.500	36.781
+124.742	3.510	54819.293	1797.522	131.107	3529.103	38.839
+125.193	3.530	59827.683	1875.477	139.798	3697.367	38.554
+128.362	3.670	64397.314	358.302	21.405	4434.951	7.038
+134.534	3.870	36498.296	196.166	2.614	3087.552	3.204
+147.654	4.295	48298.980	492.058	0.500	3664.975	1.614
+151.688	4.415	49327.661	691.581	0.584	3241.316	1.815
+159.288	4.665	53648.880	220.699	0.497	3902.334	2.981
+165.803	4.865	44211.826	936.286	4.231	3185.932	8.581
+170.699	4.965	52907.693	625.321	67.905	3873.354	13.190
+176.084	5.075	58407.665	506.811	82.336	5117.334	15.377
+179.900	5.155	46414.446	495.883	5.882	3817.335	6.214
+195.367	5.570	57900.990	993.203	109.592	3673.452	25.733
+198.666	5.700	82960.883	231.608	21.729	6958.438	10.082
+208.806	5.990	54151.163	685.516	1.247	3567.708	2.814
+214.017	6.090	59067.688	598.816	9.185	4388.268	10.403
+216.006	6.120	47228.602	913.224	31.245	3690.074	14.017
+221.147	6.190	43825.501	876.092	42.592	3634.685	12.695
+228.820	6.315	56573.356	592.355	4.682	4729.014	4.403
+239.219	6.565	58342.240	1071.983	35.462	3999.372	14.463
+257.612	6.935	54383.538	133.518	0.817	4665.353	2.076
+289.142	7.550	65337.075	147.923	0.915	4912.735	1.248
+321.698	8.120	44021.924	108.035	0.952	3379.225	2.511
+375.078	8.570	53451.410	645.962	0.964	4825.165	3.405

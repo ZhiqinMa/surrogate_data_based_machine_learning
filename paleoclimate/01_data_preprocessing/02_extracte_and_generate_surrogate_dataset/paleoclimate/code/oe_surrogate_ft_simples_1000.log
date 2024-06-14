@@ -1,0 +1,125 @@
+---------------------------- 01 Run start python scripts -----------------------------
+tsid: 1
+Period: I
+simples: 1000
+surr_type: FT
+
+../data directory already exists!
+file_path= ../../../01_organise__transition__interpolate__ews/data/03_ews/paleoclimate_df_ews_interpolate.csv
+df.shape: (2969, 9)
+df_I.shape: (909, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 300)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 300)
+surr1 successfully.
+surr_df.shape:  (2000, 301)
+
+------------------- saved file successfully -------------------
+tsid: 2
+Period: II
+simples: 1000
+surr_type: FT
+
+../data directory already exists!
+file_path= ../../../01_organise__transition__interpolate__ews/data/03_ews/paleoclimate_df_ews_interpolate.csv
+df.shape: (2969, 9)
+df_II.shape: (893, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 300)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 300)
+surr1 successfully.
+surr_df.shape:  (2000, 301)
+
+------------------- saved file successfully -------------------
+tsid: 3
+Period: III
+simples: 1000
+surr_type: FT
+
+../data directory already exists!
+file_path= ../../../01_organise__transition__interpolate__ews/data/03_ews/paleoclimate_df_ews_interpolate.csv
+df.shape: (2969, 9)
+df_III.shape: (643, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 300)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 300)
+surr1 successfully.
+surr_df.shape:  (2000, 301)
+
+------------------- saved file successfully -------------------
+tsid: 4
+Period: IV
+simples: 1000
+surr_type: FT
+
+../data directory already exists!
+file_path= ../../../01_organise__transition__interpolate__ews/data/03_ews/paleoclimate_df_ews_interpolate.csv
+df.shape: (2969, 9)
+df_IV.shape: (524, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 262)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 262)
+surr1 successfully.
+surr_df.shape:  (2000, 263)
+
+------------------- saved file successfully -------------------
+---------------------------- 01 complete end ----------------------------
+
+---------------------------- 02 Run merge_train ----------------------------
+tsid_4: 4
+tsid_3: 3
+ID_train_4: IV
+ID_train_3: III
+surr_type: FT
+n_features: 301
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df4.shape:  (2000, 263)
+df3.shape: (2000, 301)
+---------------------
+concat dataframe: axis=1(col):
+df4_concat.shape:  (2000, 301)
+df3_concat.shape:  (2000, 301)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (4000, 301)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+tsid_2: 2
+tsid_1: 1
+ID_test_2: II
+ID_test_1: I
+surr_type: FT
+n_features: 301
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df2.shape:  (2000, 301)
+df1.shape: (2000, 301)
+---------------------
+concat dataframe: axis=1(col):
+df2_concat.shape:  (2000, 301)
+df1_concat.shape:  (2000, 301)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (4000, 301)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+---------------------------- 02 complete end ----------------------------

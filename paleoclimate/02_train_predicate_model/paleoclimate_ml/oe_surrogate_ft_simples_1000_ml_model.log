@@ -1,0 +1,1806 @@
+---------------------------- Run start python scripts -----------------------------
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: paleoclimate
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: SVM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/paleoclimate/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/paleoclimate/data/merge_surrogate_FT_simples_1000_train_IV_III.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: SVM_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 52.0 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: SVM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_SVM_model_train_IV_III.txt
+
+Running time 1.6 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+tsid: 1
+features: 300
+sw_width: 454
+
+03_sliding_window_data directory already exists!
+I.shape: (909, 2)
+success-> sliding_window_features_shape (real=(909-454+1, 300)):  (456, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+ML_model: SVM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (456, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (456, 1)
+y_pred_list.shape: (456, 2)
+y_pred_list.shape: (456, 3)
+y_pred_list.shape: (456, 4)
+y_pred_list.shape: (456, 5)
+y_pred_list.shape: (456, 6)
+y_pred_list.shape: (456, 7)
+y_pred_list.shape: (456, 8)
+y_pred_list.shape: (456, 9)
+y_pred_list.shape: (456, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+DL_model: SVM_model
+sw_width: 454
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+Record_period: End_of_glaciation_I
+start_age, transition_start, transition_end: -108025.0 -17000 -13828.0
+sliding_window_I: 454
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [2,1]
+ML_model: SVM_model
+repeats: 10
+features: 300
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[2,1].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[2,1].png
+Ran in 1.91s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [2,1]
+ML_model: SVM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_SVM_model_[2,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_SVM_model_[2,1].png
+Ran in 1.58s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [4,3]
+ML_model: SVM_model
+repeats: 10
+features: 300
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[4,3].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[4,3].png
+Ran in 1.61s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [4,3]
+ML_model: SVM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_SVM_model_[4,3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_SVM_model_[4,3].png
+Ran in 1.57s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 300
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_all.csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_all.png
+Ran in 1.93s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_SVM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_SVM_model_all.png
+Ran in 1.78s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+tsid: 2
+features: 300
+sw_width: 446
+
+03_sliding_window_data directory already exists!
+II.shape: (893, 2)
+success-> sliding_window_features_shape (real=(893-446+1, 300)):  (448, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+ML_model: SVM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (448, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (448, 1)
+y_pred_list.shape: (448, 2)
+y_pred_list.shape: (448, 3)
+y_pred_list.shape: (448, 4)
+y_pred_list.shape: (448, 5)
+y_pred_list.shape: (448, 6)
+y_pred_list.shape: (448, 7)
+y_pred_list.shape: (448, 8)
+y_pred_list.shape: (448, 9)
+y_pred_list.shape: (448, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+DL_model: SVM_model
+sw_width: 446
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_II
+start_age, transition_start, transition_end: -224351.0 -135000 -129705.0
+sliding_window_II: 446
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: paleoclimate
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: Bagging_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/paleoclimate/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/paleoclimate/data/merge_surrogate_FT_simples_1000_train_IV_III.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Bagging_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 1318.4 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: Bagging_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_Bagging_model_train_IV_III.txt
+
+Running time 2.1 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+tsid: 1
+features: 300
+sw_width: 454
+
+03_sliding_window_data directory already exists!
+I.shape: (909, 2)
+success-> sliding_window_features_shape (real=(909-454+1, 300)):  (456, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+ML_model: Bagging_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (456, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (456, 1)
+y_pred_list.shape: (456, 2)
+y_pred_list.shape: (456, 3)
+y_pred_list.shape: (456, 4)
+y_pred_list.shape: (456, 5)
+y_pred_list.shape: (456, 6)
+y_pred_list.shape: (456, 7)
+y_pred_list.shape: (456, 8)
+y_pred_list.shape: (456, 9)
+y_pred_list.shape: (456, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+DL_model: Bagging_model
+sw_width: 454
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_I
+start_age, transition_start, transition_end: -108025.0 -17000 -13828.0
+sliding_window_I: 454
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [2,1]
+ML_model: Bagging_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Bagging_model_[2,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Bagging_model_[2,1].png
+Ran in 2.36s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [4,3]
+ML_model: Bagging_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Bagging_model_[4,3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Bagging_model_[4,3].png
+Ran in 2.37s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: Bagging_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Bagging_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Bagging_model_all.png
+Ran in 3.04s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+tsid: 2
+features: 300
+sw_width: 446
+
+03_sliding_window_data directory already exists!
+II.shape: (893, 2)
+success-> sliding_window_features_shape (real=(893-446+1, 300)):  (448, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+ML_model: Bagging_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (448, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (448, 1)
+y_pred_list.shape: (448, 2)
+y_pred_list.shape: (448, 3)
+y_pred_list.shape: (448, 4)
+y_pred_list.shape: (448, 5)
+y_pred_list.shape: (448, 6)
+y_pred_list.shape: (448, 7)
+y_pred_list.shape: (448, 8)
+y_pred_list.shape: (448, 9)
+y_pred_list.shape: (448, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+DL_model: Bagging_model
+sw_width: 446
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_II
+start_age, transition_start, transition_end: -224351.0 -135000 -129705.0
+sliding_window_II: 446
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: paleoclimate
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: RF_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/paleoclimate/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/paleoclimate/data/merge_surrogate_FT_simples_1000_train_IV_III.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: RF_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 92.7 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: RF_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_RF_model_train_IV_III.txt
+
+Running time 1.5 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+tsid: 1
+features: 300
+sw_width: 454
+
+03_sliding_window_data directory already exists!
+I.shape: (909, 2)
+success-> sliding_window_features_shape (real=(909-454+1, 300)):  (456, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+ML_model: RF_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (456, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (456, 1)
+y_pred_list.shape: (456, 2)
+y_pred_list.shape: (456, 3)
+y_pred_list.shape: (456, 4)
+y_pred_list.shape: (456, 5)
+y_pred_list.shape: (456, 6)
+y_pred_list.shape: (456, 7)
+y_pred_list.shape: (456, 8)
+y_pred_list.shape: (456, 9)
+y_pred_list.shape: (456, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+DL_model: RF_model
+sw_width: 454
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_I
+start_age, transition_start, transition_end: -108025.0 -17000 -13828.0
+sliding_window_I: 454
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [2,1]
+ML_model: RF_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_RF_model_[2,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_RF_model_[2,1].png
+Ran in 2.20s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [4,3]
+ML_model: RF_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_RF_model_[4,3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_RF_model_[4,3].png
+Ran in 2.19s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: RF_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_RF_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_RF_model_all.png
+Ran in 2.67s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+tsid: 2
+features: 300
+sw_width: 446
+
+03_sliding_window_data directory already exists!
+II.shape: (893, 2)
+success-> sliding_window_features_shape (real=(893-446+1, 300)):  (448, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+ML_model: RF_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (448, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (448, 1)
+y_pred_list.shape: (448, 2)
+y_pred_list.shape: (448, 3)
+y_pred_list.shape: (448, 4)
+y_pred_list.shape: (448, 5)
+y_pred_list.shape: (448, 6)
+y_pred_list.shape: (448, 7)
+y_pred_list.shape: (448, 8)
+y_pred_list.shape: (448, 9)
+y_pred_list.shape: (448, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+DL_model: RF_model
+sw_width: 446
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_II
+start_age, transition_start, transition_end: -224351.0 -135000 -129705.0
+sliding_window_II: 446
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: paleoclimate
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: GBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/paleoclimate/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/paleoclimate/data/merge_surrogate_FT_simples_1000_train_IV_III.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: GBM_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 1219.7 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: GBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_GBM_model_train_IV_III.txt
+
+Running time 1.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+tsid: 1
+features: 300
+sw_width: 454
+
+03_sliding_window_data directory already exists!
+I.shape: (909, 2)
+success-> sliding_window_features_shape (real=(909-454+1, 300)):  (456, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+ML_model: GBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (456, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (456, 1)
+y_pred_list.shape: (456, 2)
+y_pred_list.shape: (456, 3)
+y_pred_list.shape: (456, 4)
+y_pred_list.shape: (456, 5)
+y_pred_list.shape: (456, 6)
+y_pred_list.shape: (456, 7)
+y_pred_list.shape: (456, 8)
+y_pred_list.shape: (456, 9)
+y_pred_list.shape: (456, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+DL_model: GBM_model
+sw_width: 454
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_I
+start_age, transition_start, transition_end: -108025.0 -17000 -13828.0
+sliding_window_I: 454
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [2,1]
+ML_model: GBM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_GBM_model_[2,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_GBM_model_[2,1].png
+Ran in 1.47s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [4,3]
+ML_model: GBM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_GBM_model_[4,3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_GBM_model_[4,3].png
+Ran in 1.49s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: GBM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_GBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_GBM_model_all.png
+Ran in 1.59s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+tsid: 2
+features: 300
+sw_width: 446
+
+03_sliding_window_data directory already exists!
+II.shape: (893, 2)
+success-> sliding_window_features_shape (real=(893-446+1, 300)):  (448, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+ML_model: GBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (448, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (448, 1)
+y_pred_list.shape: (448, 2)
+y_pred_list.shape: (448, 3)
+y_pred_list.shape: (448, 4)
+y_pred_list.shape: (448, 5)
+y_pred_list.shape: (448, 6)
+y_pred_list.shape: (448, 7)
+y_pred_list.shape: (448, 8)
+y_pred_list.shape: (448, 9)
+y_pred_list.shape: (448, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+DL_model: GBM_model
+sw_width: 446
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_II
+start_age, transition_start, transition_end: -224351.0 -135000 -129705.0
+sliding_window_II: 446
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: paleoclimate
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: Xgboost_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/paleoclimate/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/paleoclimate/data/merge_surrogate_FT_simples_1000_train_IV_III.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Xgboost_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 36.9 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: Xgboost_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_Xgboost_model_train_IV_III.txt
+
+Running time 1.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+tsid: 1
+features: 300
+sw_width: 454
+
+03_sliding_window_data directory already exists!
+I.shape: (909, 2)
+success-> sliding_window_features_shape (real=(909-454+1, 300)):  (456, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+ML_model: Xgboost_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (456, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (456, 1)
+y_pred_list.shape: (456, 2)
+y_pred_list.shape: (456, 3)
+y_pred_list.shape: (456, 4)
+y_pred_list.shape: (456, 5)
+y_pred_list.shape: (456, 6)
+y_pred_list.shape: (456, 7)
+y_pred_list.shape: (456, 8)
+y_pred_list.shape: (456, 9)
+y_pred_list.shape: (456, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+DL_model: Xgboost_model
+sw_width: 454
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_I
+start_age, transition_start, transition_end: -108025.0 -17000 -13828.0
+sliding_window_I: 454
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [2,1]
+ML_model: Xgboost_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Xgboost_model_[2,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Xgboost_model_[2,1].png
+Ran in 1.48s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [4,3]
+ML_model: Xgboost_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Xgboost_model_[4,3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Xgboost_model_[4,3].png
+Ran in 1.50s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: Xgboost_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_Xgboost_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_Xgboost_model_all.png
+Ran in 1.65s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+tsid: 2
+features: 300
+sw_width: 446
+
+03_sliding_window_data directory already exists!
+II.shape: (893, 2)
+success-> sliding_window_features_shape (real=(893-446+1, 300)):  (448, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+ML_model: Xgboost_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (448, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (448, 1)
+y_pred_list.shape: (448, 2)
+y_pred_list.shape: (448, 3)
+y_pred_list.shape: (448, 4)
+y_pred_list.shape: (448, 5)
+y_pred_list.shape: (448, 6)
+y_pred_list.shape: (448, 7)
+y_pred_list.shape: (448, 8)
+y_pred_list.shape: (448, 9)
+y_pred_list.shape: (448, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+DL_model: Xgboost_model
+sw_width: 446
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_II
+start_age, transition_start, transition_end: -224351.0 -135000 -129705.0
+sliding_window_II: 446
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: paleoclimate
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: LGBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/paleoclimate/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/paleoclimate/data/merge_surrogate_FT_simples_1000_train_IV_III.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: LGBM_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 72.0 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ML_model: LGBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_1000_LGBM_model_train_IV_III.txt
+
+Running time 1.4 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+tsid: 1
+features: 300
+sw_width: 454
+
+03_sliding_window_data directory already exists!
+I.shape: (909, 2)
+success-> sliding_window_features_shape (real=(909-454+1, 300)):  (456, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+ML_model: LGBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (456, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (456, 1)
+y_pred_list.shape: (456, 2)
+y_pred_list.shape: (456, 3)
+y_pred_list.shape: (456, 4)
+y_pred_list.shape: (456, 5)
+y_pred_list.shape: (456, 6)
+y_pred_list.shape: (456, 7)
+y_pred_list.shape: (456, 8)
+y_pred_list.shape: (456, 9)
+y_pred_list.shape: (456, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: I
+Variable_label: paleoclimate
+DL_model: LGBM_model
+sw_width: 454
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_I
+start_age, transition_start, transition_end: -108025.0 -17000 -13828.0
+sliding_window_I: 454
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [2,1]
+ML_model: LGBM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_LGBM_model_[2,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_LGBM_model_[2,1].png
+Ran in 1.45s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: [4,3]
+ML_model: LGBM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_LGBM_model_[4,3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_LGBM_model_[4,3].png
+Ran in 1.45s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: FT
+simples: 1000
+ID_merge_tsid: all
+ML_model: LGBM_model
+repeats: 10
+features: 300
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_1000_LGBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_1000_LGBM_model_all.png
+Ran in 1.56s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+tsid: 2
+features: 300
+sw_width: 446
+
+03_sliding_window_data directory already exists!
+II.shape: (893, 2)
+success-> sliding_window_features_shape (real=(893-446+1, 300)):  (448, 300)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+ML_model: LGBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (448, 300)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (448, 1)
+y_pred_list.shape: (448, 2)
+y_pred_list.shape: (448, 3)
+y_pred_list.shape: (448, 4)
+y_pred_list.shape: (448, 5)
+y_pred_list.shape: (448, 6)
+y_pred_list.shape: (448, 7)
+y_pred_list.shape: (448, 8)
+y_pred_list.shape: (448, 9)
+y_pred_list.shape: (448, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 1000
+ID_train: IV_III
+ID_test: II
+Variable_label: paleoclimate
+DL_model: LGBM_model
+sw_width: 446
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_period: End_of_glaciation_II
+start_age, transition_start, transition_end: -224351.0 -135000 -129705.0
+sliding_window_II: 446
+------------------------------ 05 Completed plots ------------------------------
+
+---------------------------- complete end ----------------------------

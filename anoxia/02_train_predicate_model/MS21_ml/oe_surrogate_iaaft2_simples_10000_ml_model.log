@@ -1,0 +1,1712 @@
+---------------------------- Run start python scripts -----------------------------
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: SVM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: SVM_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 5423.5 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: SVM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_IAAFT2_simples_10000_SVM_model_train_S3.txt
+
+Running time 44.9 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+ML_model: SVM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (443, 450)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (443, 1)
+y_pred_list.shape: (443, 2)
+y_pred_list.shape: (443, 3)
+y_pred_list.shape: (443, 4)
+y_pred_list.shape: (443, 5)
+y_pred_list.shape: (443, 6)
+y_pred_list.shape: (443, 7)
+y_pred_list.shape: (443, 8)
+y_pred_list.shape: (443, 9)
+y_pred_list.shape: (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+ML_model: SVM_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/IAAFT2 directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/IAAFT2 directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [1]
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[1].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[1].png
+Ran in 1.41s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [1]
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_SVM_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_SVM_model_[1].png
+Ran in 2.06s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3]
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[3].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[3].png
+Ran in 1.38s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3]
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_SVM_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_SVM_model_[3].png
+Ran in 2.07s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3,1]
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[3,1].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[3,1].png
+Ran in 1.53s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3,1]
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_SVM_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_SVM_model_[3,1].png
+Ran in 3.06s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_all.csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_all.png
+Ran in 2.67s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_SVM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_SVM_model_all.png
+Ran in 33.97s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: Bagging_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Bagging_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 21181.2 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: Bagging_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_IAAFT2_simples_10000_Bagging_model_train_S3.txt
+
+Running time 7.3 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+ML_model: Bagging_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (443, 450)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (443, 1)
+y_pred_list.shape: (443, 2)
+y_pred_list.shape: (443, 3)
+y_pred_list.shape: (443, 4)
+y_pred_list.shape: (443, 5)
+y_pred_list.shape: (443, 6)
+y_pred_list.shape: (443, 7)
+y_pred_list.shape: (443, 8)
+y_pred_list.shape: (443, 9)
+y_pred_list.shape: (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+ML_model: Bagging_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/IAAFT2 directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/IAAFT2 directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [1]
+ML_model: Bagging_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Bagging_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Bagging_model_[1].png
+Ran in 2.06s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3]
+ML_model: Bagging_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Bagging_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Bagging_model_[3].png
+Ran in 2.03s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3,1]
+ML_model: Bagging_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Bagging_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Bagging_model_[3,1].png
+Ran in 2.44s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: all
+ML_model: Bagging_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Bagging_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Bagging_model_all.png
+Ran in 9.92s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: RF_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: RF_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 985.0 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: RF_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_IAAFT2_simples_10000_RF_model_train_S3.txt
+
+Running time 2.0 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+ML_model: RF_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (443, 450)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (443, 1)
+y_pred_list.shape: (443, 2)
+y_pred_list.shape: (443, 3)
+y_pred_list.shape: (443, 4)
+y_pred_list.shape: (443, 5)
+y_pred_list.shape: (443, 6)
+y_pred_list.shape: (443, 7)
+y_pred_list.shape: (443, 8)
+y_pred_list.shape: (443, 9)
+y_pred_list.shape: (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+ML_model: RF_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/IAAFT2 directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/IAAFT2 directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [1]
+ML_model: RF_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_RF_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_RF_model_[1].png
+Ran in 1.97s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3]
+ML_model: RF_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_RF_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_RF_model_[3].png
+Ran in 1.95s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3,1]
+ML_model: RF_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_RF_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_RF_model_[3,1].png
+Ran in 2.26s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: all
+ML_model: RF_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_RF_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_RF_model_all.png
+Ran in 5.79s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: GBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: GBM_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 7004.7 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: GBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_IAAFT2_simples_10000_GBM_model_train_S3.txt
+
+Running time 1.6 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+ML_model: GBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (443, 450)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (443, 1)
+y_pred_list.shape: (443, 2)
+y_pred_list.shape: (443, 3)
+y_pred_list.shape: (443, 4)
+y_pred_list.shape: (443, 5)
+y_pred_list.shape: (443, 6)
+y_pred_list.shape: (443, 7)
+y_pred_list.shape: (443, 8)
+y_pred_list.shape: (443, 9)
+y_pred_list.shape: (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+ML_model: GBM_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/IAAFT2 directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/IAAFT2 directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [1]
+ML_model: GBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_GBM_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_GBM_model_[1].png
+Ran in 1.45s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3]
+ML_model: GBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_GBM_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_GBM_model_[3].png
+Ran in 1.46s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3,1]
+ML_model: GBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_GBM_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_GBM_model_[3,1].png
+Ran in 1.52s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: all
+ML_model: GBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_GBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_GBM_model_all.png
+Ran in 2.38s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: Xgboost_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Xgboost_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 368.4 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: Xgboost_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_IAAFT2_simples_10000_Xgboost_model_train_S3.txt
+
+Running time 1.5 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+ML_model: Xgboost_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (443, 450)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (443, 1)
+y_pred_list.shape: (443, 2)
+y_pred_list.shape: (443, 3)
+y_pred_list.shape: (443, 4)
+y_pred_list.shape: (443, 5)
+y_pred_list.shape: (443, 6)
+y_pred_list.shape: (443, 7)
+y_pred_list.shape: (443, 8)
+y_pred_list.shape: (443, 9)
+y_pred_list.shape: (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+ML_model: Xgboost_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/IAAFT2 directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/IAAFT2 directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [1]
+ML_model: Xgboost_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_[1].png
+Ran in 1.46s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3]
+ML_model: Xgboost_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_[3].png
+Ran in 1.48s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3,1]
+ML_model: Xgboost_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_[3,1].png
+Ran in 1.56s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: all
+ML_model: Xgboost_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_Xgboost_model_all.png
+Ran in 2.64s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: LGBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: LGBM_model
+scores: [array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.]), array([100., 100., 100., 100., 100., 100., 100., 100., 100., 100., 100.,
+       100., 100., 100., 100.])]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 120.2 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ML_model: LGBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_IAAFT2_simples_10000_LGBM_model_train_S3.txt
+
+Running time 1.5 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+ML_model: LGBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (443, 450)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (443, 1)
+y_pred_list.shape: (443, 2)
+y_pred_list.shape: (443, 3)
+y_pred_list.shape: (443, 4)
+y_pred_list.shape: (443, 5)
+y_pred_list.shape: (443, 6)
+y_pred_list.shape: (443, 7)
+y_pred_list.shape: (443, 8)
+y_pred_list.shape: (443, 9)
+y_pred_list.shape: (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+ML_model: LGBM_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/IAAFT2 directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/IAAFT2 directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [1]
+ML_model: LGBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_LGBM_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_LGBM_model_[1].png
+Ran in 1.44s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3]
+ML_model: LGBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_LGBM_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_LGBM_model_[3].png
+Ran in 1.45s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: [3,1]
+ML_model: LGBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_LGBM_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_LGBM_model_[3,1].png
+Ran in 1.50s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: IAAFT2
+simples: 10000
+ID_merge_tsid: all
+ML_model: LGBM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2 directory already exists!
+07_roc_data_and_figures_sdml/data/IAAFT2/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/IAAFT2 directory already exists!
+
+07_roc_data_and_figures_sdml/figures/IAAFT2/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/IAAFT2/ROC/df_roc_surrogate_IAAFT2_simples_10000_LGBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/IAAFT2/ROC/figure_roc_surrogate_IAAFT2_simples_10000_LGBM_model_all.png
+Ran in 2.41s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+---------------------------- complete end ----------------------------

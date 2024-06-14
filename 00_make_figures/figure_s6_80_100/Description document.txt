@@ -1,0 +1,1 @@
+Comparison of different surrogate data methods for test period at 60%--100% time series.

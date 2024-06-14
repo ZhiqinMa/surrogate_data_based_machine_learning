@@ -1,0 +1,2212 @@
+---------------------------- Run start python scripts -----------------------------
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: CNN_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= ../../01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS21/data/merge_surrogate_AAFT_simples_10000_train_S3.csv
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_1.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_3.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_4.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_5.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_6.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_7.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_8.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_CNN_model_9.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: CNN_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 122.5 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: CNN_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 1.0
+# 5 >> accuracy: 1.0
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_AAFT_simples_10000_CNN_model_train_S3.txt
+
+Running time 20.0 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+DL_model: CNN_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (443, 450)
+X_test_array.shape:  (443, 450, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+DL_model: CNN_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/AAFT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/AAFT directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [1]
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[1].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[1].png
+Ran in 2.32s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [1]
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_model_[1].png
+Ran in 14.69s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3]
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[3].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[3].png
+Ran in 2.24s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3]
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_model_[3].png
+Ran in 14.70s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3,1]
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[3,1].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[3,1].png
+Ran in 2.50s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3,1]
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_model_[3,1].png
+Ran in 19.01s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: all
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_all.csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_all.png
+Ran in 4.17s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: all
+DL_model: CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_model_all.png
+Ran in 52.78s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: three_head_CNN_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= ../../01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS21/data/merge_surrogate_AAFT_simples_10000_train_S3.csv
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_0.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_0.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_1.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_1.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_2.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_2.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_3.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_3.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_4.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_4.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_5.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_5.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_6.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_6.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_7.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_7.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49775, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_8.h5
+
+Epoch 2: val_accuracy improved from 0.49775 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_8.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.49825, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_9.h5
+
+Epoch 2: val_accuracy improved from 0.49825 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_three_head_CNN_model_9.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: three_head_CNN_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 182.1 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: three_head_CNN_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 1.0
+# 5 >> accuracy: 1.0
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_AAFT_simples_10000_three_head_CNN_model_train_S3.txt
+
+Running time 17.7 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+DL_model: three_head_CNN_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (443, 450)
+X_test_array.shape:  (443, 450, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+DL_model: three_head_CNN_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/AAFT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/AAFT directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [1]
+DL_model: three_head_CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_[1].png
+Ran in 13.10s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3]
+DL_model: three_head_CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_[3].png
+Ran in 12.99s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3,1]
+DL_model: three_head_CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_[3,1].png
+Ran in 17.24s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: all
+DL_model: three_head_CNN_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_three_head_CNN_model_all.png
+Ran in 69.07s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: LSTM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= ../../01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS21/data/merge_surrogate_AAFT_simples_10000_train_S3.csv
+
+Epoch 1: val_accuracy improved from -inf to 0.50225, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_0.h5
+
+Epoch 2: val_accuracy improved from 0.50225 to 0.55000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_0.h5
+
+Epoch 3: val_accuracy improved from 0.55000 to 0.99875, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_0.h5
+
+Epoch 4: val_accuracy did not improve from 0.99875
+
+Epoch 5: val_accuracy improved from 0.99875 to 0.99975, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_0.h5
+
+Epoch 6: val_accuracy improved from 0.99975 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_0.h5
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+
+Epoch 10: val_accuracy did not improve from 1.00000
+
+Epoch 11: val_accuracy did not improve from 1.00000
+Epoch 11: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99975, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_1.h5
+
+Epoch 2: val_accuracy did not improve from 0.99975
+
+Epoch 3: val_accuracy did not improve from 0.99975
+
+Epoch 4: val_accuracy improved from 0.99975 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_1.h5
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+Epoch 9: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99850, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 0.99850
+
+Epoch 3: val_accuracy did not improve from 0.99850
+
+Epoch 4: val_accuracy did not improve from 0.99850
+
+Epoch 5: val_accuracy did not improve from 0.99850
+
+Epoch 6: val_accuracy did not improve from 0.99850
+Epoch 6: early stopping
+>#3: 99.850
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_3.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_4.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.69575, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_5.h5
+
+Epoch 2: val_accuracy did not improve from 0.69575
+
+Epoch 3: val_accuracy improved from 0.69575 to 0.77550, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_5.h5
+
+Epoch 4: val_accuracy did not improve from 0.77550
+
+Epoch 5: val_accuracy did not improve from 0.77550
+
+Epoch 6: val_accuracy did not improve from 0.77550
+
+Epoch 7: val_accuracy did not improve from 0.77550
+
+Epoch 8: val_accuracy did not improve from 0.77550
+Epoch 8: early stopping
+>#6: 77.550
+
+Epoch 1: val_accuracy improved from -inf to 0.61825, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_6.h5
+
+Epoch 2: val_accuracy improved from 0.61825 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_6.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_7.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.61350, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_8.h5
+
+Epoch 2: val_accuracy improved from 0.61350 to 0.76400, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_8.h5
+
+Epoch 3: val_accuracy improved from 0.76400 to 0.99950, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_8.h5
+
+Epoch 4: val_accuracy improved from 0.99950 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_8.h5
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+Epoch 9: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.72500, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_9.h5
+
+Epoch 2: val_accuracy improved from 0.72500 to 0.94850, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_9.h5
+
+Epoch 3: val_accuracy did not improve from 0.94850
+
+Epoch 4: val_accuracy improved from 0.94850 to 1.00000, saving model to models\surrogate_AAFT_simples_10000_LSTM_model_9.h5
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+Epoch 9: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: LSTM_model
+scores: [100.0, 100.0, 99.84999895095825, 100.0, 100.0, 77.54999995231628, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 97.740% (6.730)
+
+Running time 295.9 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: LSTM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 0.9982500076293945
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 1.0
+# 5 >> accuracy: 0.7857499718666077
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 0.999750018119812
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_AAFT_simples_10000_LSTM_model_train_S3.txt
+
+Running time 25.7 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+DL_model: LSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (443, 450)
+X_test_array.shape:  (443, 450, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+DL_model: LSTM_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/AAFT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/AAFT directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [1]
+DL_model: LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_LSTM_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_LSTM_model_[1].png
+Ran in 16.28s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3]
+DL_model: LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_LSTM_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_LSTM_model_[3].png
+Ran in 16.19s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3,1]
+DL_model: LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_LSTM_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_LSTM_model_[3,1].png
+Ran in 22.62s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: all
+DL_model: LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_LSTM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_LSTM_model_all.png
+Ran in 95.17s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: CNN_LSTM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= ../../01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS21/data/merge_surrogate_AAFT_simples_10000_train_S3.csv
+
+Epoch 1: val_accuracy improved from -inf to 0.61525, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 0.61525
+
+Epoch 3: val_accuracy did not improve from 0.61525
+
+Epoch 4: val_accuracy did not improve from 0.61525
+
+Epoch 5: val_accuracy did not improve from 0.61525
+
+Epoch 6: val_accuracy did not improve from 0.61525
+Epoch 6: early stopping
+>#1: 61.525
+
+Epoch 1: val_accuracy improved from -inf to 0.50225, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 2: val_accuracy did not improve from 0.50225
+
+Epoch 3: val_accuracy did not improve from 0.50225
+
+Epoch 4: val_accuracy improved from 0.50225 to 0.50475, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 5: val_accuracy improved from 0.50475 to 0.50800, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 6: val_accuracy improved from 0.50800 to 0.51825, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 7: val_accuracy improved from 0.51825 to 0.55050, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 8: val_accuracy improved from 0.55050 to 0.56425, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 9: val_accuracy improved from 0.56425 to 0.56650, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 10: val_accuracy did not improve from 0.56650
+
+Epoch 11: val_accuracy improved from 0.56650 to 0.62050, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 12: val_accuracy did not improve from 0.62050
+
+Epoch 13: val_accuracy did not improve from 0.62050
+
+Epoch 14: val_accuracy did not improve from 0.62050
+
+Epoch 15: val_accuracy improved from 0.62050 to 0.71475, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 16: val_accuracy improved from 0.71475 to 0.77525, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 17: val_accuracy improved from 0.77525 to 0.79425, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 18: val_accuracy did not improve from 0.79425
+
+Epoch 19: val_accuracy improved from 0.79425 to 0.99500, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 20: val_accuracy did not improve from 0.99500
+
+Epoch 21: val_accuracy did not improve from 0.99500
+
+Epoch 22: val_accuracy did not improve from 0.99500
+
+Epoch 23: val_accuracy did not improve from 0.99500
+
+Epoch 24: val_accuracy did not improve from 0.99500
+Epoch 24: early stopping
+>#2: 99.500
+
+Epoch 1: val_accuracy improved from -inf to 0.53250, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_2.h5
+
+Epoch 2: val_accuracy improved from 0.53250 to 0.69750, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_2.h5
+
+Epoch 3: val_accuracy improved from 0.69750 to 0.74075, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_2.h5
+
+Epoch 4: val_accuracy did not improve from 0.74075
+
+Epoch 5: val_accuracy did not improve from 0.74075
+
+Epoch 6: val_accuracy did not improve from 0.74075
+
+Epoch 7: val_accuracy did not improve from 0.74075
+
+Epoch 8: val_accuracy did not improve from 0.74075
+Epoch 8: early stopping
+>#3: 74.075
+
+Epoch 1: val_accuracy improved from -inf to 0.50275, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 2: val_accuracy improved from 0.50275 to 0.53200, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 3: val_accuracy improved from 0.53200 to 0.57550, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 4: val_accuracy improved from 0.57550 to 0.59850, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 5: val_accuracy improved from 0.59850 to 0.61175, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 6: val_accuracy improved from 0.61175 to 0.63775, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 7: val_accuracy improved from 0.63775 to 0.64350, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 8: val_accuracy did not improve from 0.64350
+
+Epoch 9: val_accuracy did not improve from 0.64350
+
+Epoch 10: val_accuracy did not improve from 0.64350
+
+Epoch 11: val_accuracy did not improve from 0.64350
+
+Epoch 12: val_accuracy did not improve from 0.64350
+Epoch 12: early stopping
+>#4: 64.350
+
+Epoch 1: val_accuracy improved from -inf to 0.53400, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 2: val_accuracy improved from 0.53400 to 0.60325, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 3: val_accuracy improved from 0.60325 to 0.62375, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 4: val_accuracy improved from 0.62375 to 0.64775, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 5: val_accuracy improved from 0.64775 to 0.66175, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 6: val_accuracy improved from 0.66175 to 0.66575, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 7: val_accuracy did not improve from 0.66575
+
+Epoch 8: val_accuracy improved from 0.66575 to 0.67750, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 9: val_accuracy improved from 0.67750 to 0.69250, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 10: val_accuracy did not improve from 0.69250
+
+Epoch 11: val_accuracy did not improve from 0.69250
+
+Epoch 12: val_accuracy did not improve from 0.69250
+
+Epoch 13: val_accuracy did not improve from 0.69250
+
+Epoch 14: val_accuracy improved from 0.69250 to 0.69300, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 15: val_accuracy did not improve from 0.69300
+
+Epoch 16: val_accuracy did not improve from 0.69300
+
+Epoch 17: val_accuracy did not improve from 0.69300
+
+Epoch 18: val_accuracy did not improve from 0.69300
+
+Epoch 19: val_accuracy did not improve from 0.69300
+Epoch 19: early stopping
+>#5: 69.300
+
+Epoch 1: val_accuracy improved from -inf to 0.50225, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_5.h5
+
+Epoch 2: val_accuracy improved from 0.50225 to 0.53050, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_5.h5
+
+Epoch 3: val_accuracy did not improve from 0.53050
+
+Epoch 4: val_accuracy did not improve from 0.53050
+
+Epoch 5: val_accuracy did not improve from 0.53050
+
+Epoch 6: val_accuracy did not improve from 0.53050
+
+Epoch 7: val_accuracy improved from 0.53050 to 0.98525, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_5.h5
+
+Epoch 8: val_accuracy did not improve from 0.98525
+
+Epoch 9: val_accuracy did not improve from 0.98525
+
+Epoch 10: val_accuracy did not improve from 0.98525
+
+Epoch 11: val_accuracy did not improve from 0.98525
+
+Epoch 12: val_accuracy did not improve from 0.98525
+Epoch 12: early stopping
+>#6: 98.525
+
+Epoch 1: val_accuracy improved from -inf to 0.57075, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_6.h5
+
+Epoch 2: val_accuracy improved from 0.57075 to 0.59200, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_6.h5
+
+Epoch 3: val_accuracy improved from 0.59200 to 0.63025, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_6.h5
+
+Epoch 4: val_accuracy improved from 0.63025 to 0.98175, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_6.h5
+
+Epoch 5: val_accuracy did not improve from 0.98175
+
+Epoch 6: val_accuracy did not improve from 0.98175
+
+Epoch 7: val_accuracy did not improve from 0.98175
+
+Epoch 8: val_accuracy did not improve from 0.98175
+
+Epoch 9: val_accuracy did not improve from 0.98175
+Epoch 9: early stopping
+>#7: 98.175
+
+Epoch 1: val_accuracy improved from -inf to 0.72825, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_7.h5
+
+Epoch 2: val_accuracy did not improve from 0.72825
+
+Epoch 3: val_accuracy did not improve from 0.72825
+
+Epoch 4: val_accuracy did not improve from 0.72825
+
+Epoch 5: val_accuracy did not improve from 0.72825
+
+Epoch 6: val_accuracy did not improve from 0.72825
+Epoch 6: early stopping
+>#8: 72.825
+
+Epoch 1: val_accuracy improved from -inf to 0.57175, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 2: val_accuracy improved from 0.57175 to 0.61200, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 3: val_accuracy improved from 0.61200 to 0.64725, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 4: val_accuracy improved from 0.64725 to 0.66775, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 5: val_accuracy improved from 0.66775 to 0.67375, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 6: val_accuracy improved from 0.67375 to 0.67925, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 7: val_accuracy improved from 0.67925 to 0.69525, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 8: val_accuracy improved from 0.69525 to 0.69825, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 9: val_accuracy improved from 0.69825 to 0.69950, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 10: val_accuracy improved from 0.69950 to 0.70325, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 11: val_accuracy did not improve from 0.70325
+
+Epoch 12: val_accuracy improved from 0.70325 to 0.70800, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 13: val_accuracy did not improve from 0.70800
+
+Epoch 14: val_accuracy did not improve from 0.70800
+
+Epoch 15: val_accuracy did not improve from 0.70800
+
+Epoch 16: val_accuracy did not improve from 0.70800
+
+Epoch 17: val_accuracy did not improve from 0.70800
+Epoch 17: early stopping
+>#9: 70.800
+
+Epoch 1: val_accuracy improved from -inf to 0.57675, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_9.h5
+
+Epoch 2: val_accuracy improved from 0.57675 to 0.70250, saving model to models\surrogate_AAFT_simples_10000_CNN_LSTM_model_9.h5
+
+Epoch 3: val_accuracy did not improve from 0.70250
+
+Epoch 4: val_accuracy did not improve from 0.70250
+
+Epoch 5: val_accuracy did not improve from 0.70250
+
+Epoch 6: val_accuracy did not improve from 0.70250
+
+Epoch 7: val_accuracy did not improve from 0.70250
+Epoch 7: early stopping
+>#10: 70.250
+------------------ summarize results -------------------------
+DL_model: CNN_LSTM_model
+scores: [61.524999141693115, 99.50000047683716, 74.07500147819519, 64.34999704360962, 69.30000185966492, 98.52499961853027, 98.17500114440918, 72.82500267028809, 70.80000042915344, 70.24999856948853]
+Accuracy mean (std): 77.933% (14.064)
+
+Running time 253.5 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: CNN_LSTM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 0.6112499833106995
+# 1 >> accuracy: 0.9925000071525574
+# 2 >> accuracy: 0.7384999990463257
+# 3 >> accuracy: 0.6439999938011169
+# 4 >> accuracy: 0.6922500133514404
+# 5 >> accuracy: 0.9867500066757202
+# 6 >> accuracy: 0.9810000061988831
+# 7 >> accuracy: 0.7294999957084656
+# 8 >> accuracy: 0.7089999914169312
+# 9 >> accuracy: 0.699999988079071
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_AAFT_simples_10000_CNN_LSTM_model_train_S3.txt
+
+Running time 35.3 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+DL_model: CNN_LSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (443, 450)
+X_test_array.shape:  (443, 450, 1)
+--------------- prediction ... ---------------
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+textX=(samples, steps, length, channels): (443, 10, 45, 1)
+y_pred_list.shape (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+DL_model: CNN_LSTM_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/AAFT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/AAFT directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [1]
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_[1].png
+Ran in 30.94s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3]
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_[3].png
+Ran in 30.38s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3,1]
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_[3,1].png
+Ran in 42.04s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: all
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_CNN_LSTM_model_all.png
+Ran in 173.21s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS21
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: ConvLSTM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= ../../01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS21/data/merge_surrogate_AAFT_simples_10000_train_S3.csv
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_1.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_3.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_4.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_5.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_6.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_7.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_8.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_AAFT_simples_10000_ConvLSTM_model_9.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: ConvLSTM_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 1437.8 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+DL_model: ConvLSTM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 1.0
+# 5 >> accuracy: 1.0
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_AAFT_simples_10000_ConvLSTM_model_train_S3.txt
+
+Running time 33.5 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+tsid: 1
+features: 450
+sw_width: 441
+
+03_sliding_window_data directory already exists!
+S1.shape: (883, 2)
+success-> sliding_window_features_shape (real=(883-441+1, 450)):  (443, 450)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+DL_model: ConvLSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (443, 450)
+X_test_array.shape:  (443, 450, 1)
+--------------- prediction ... ---------------
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+textX=(samples, time steps, rows, cols, channels): (443, 10, 1, 45, 1)
+y_pred_list.shape (443, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_train: S3
+ID_test: S1
+Variable_label: Mo
+DL_model: ConvLSTM_model
+sw_width: 441
+tsid: 1
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/AAFT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/AAFT directory already exists!
+
+Record_Core: MS21
+start_age, Transition, end_age: -20.48787 -10.5 -8.00274
+sliding_window_S1: 441
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [1]
+DL_model: ConvLSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_[1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_[1].png
+Ran in 13.09s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3]
+DL_model: ConvLSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_[3].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_[3].png
+Ran in 12.98s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: [3,1]
+DL_model: ConvLSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=3
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=3
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_[3,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_[3,1].png
+Ran in 18.26s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: AAFT
+simples: 10000
+ID_merge_tsid: all
+DL_model: ConvLSTM_model
+repeats: 10
+features: 450
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT directory already exists!
+07_roc_data_and_figures_sdml/data/AAFT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/AAFT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/AAFT/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/AAFT/ROC/df_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/AAFT/ROC/figure_roc_surrogate_AAFT_simples_10000_ConvLSTM_model_all.png
+Ran in 75.35s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+---------------------------- complete end ----------------------------

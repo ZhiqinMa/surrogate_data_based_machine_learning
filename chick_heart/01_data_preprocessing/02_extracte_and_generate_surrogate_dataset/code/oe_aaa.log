@@ -1,0 +1,73 @@
+---------------------------- 01 Run start python scripts -----------------------------
+tsid: 8
+simples: 1000
+surr_type: AAFT
+
+df_tsid_8.shape: (223, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 111)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 111)
+surr1 successfully.
+surr_df.shape:  (2000, 112)
+Ran in 3.43s
+
+------------------- saved file successfully -------------------
+tsid: 14
+simples: 1000
+surr_type: AAFT
+
+../data directory already exists!
+
+df_tsid_14.shape: (300, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 150)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 150)
+surr1 successfully.
+surr_df.shape:  (2000, 151)
+Ran in 3.53s
+
+------------------- saved file successfully -------------------
+---------------------------- 01 complete end ----------------------------
+
+---------------------------- 02 Run merge_train ----------------------------
+tsid_merge: 8
+surr_type: AAFT
+n_features: 151
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df.shape:  (2000, 112)
+---------------------
+concat dataframe: axis=1(col):
+df_concat.shape:  (2000, 151)
+---------------------
+concat dataframe axis=0(row):
+df_merge.shape:  (2000, 151)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+tsid_merge: 14
+surr_type: AAFT
+n_features: 151
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df.shape:  (2000, 151)
+---------------------
+concat dataframe: axis=1(col):
+df_concat.shape:  (2000, 151)
+---------------------
+concat dataframe axis=0(row):
+df_merge.shape:  (2000, 151)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+---------------------------- 02 complete end ----------------------------

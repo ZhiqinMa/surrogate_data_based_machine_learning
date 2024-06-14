@@ -1,0 +1,81 @@
+---------------------------- 01 Run start python scripts -----------------------------
+tsid: 1
+Period: S1
+simples: 10000
+surr_type: IAAFT2
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S1.shape: (883, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (10000, 441)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (10000, 441)
+surr1 successfully.
+surr_df.shape:  (20000, 442)
+
+------------------- saved file successfully -------------------
+tsid: 3
+Period: S3
+simples: 10000
+surr_type: IAAFT2
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S3.shape: (626, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (10000, 313)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (10000, 313)
+surr1 successfully.
+surr_df.shape:  (20000, 314)
+
+------------------- saved file successfully -------------------
+---------------------------- 01 complete end ----------------------------
+
+---------------------------- 02 Run merge_train ----------------------------
+tsid_S3: 3
+ID_train_S3: S3
+surr_type: IAAFT2
+n_features: 451
+simples: 10000
+
+--------------- start ---------------
+raw dataset shape:
+df4.shape:  (20000, 314)
+---------------------
+concat dataframe: axis=1(col):
+df4_concat.shape:  (20000, 451)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (20000, 451)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+tsid_S1: 1
+ID_test_S1: S1
+surr_type: IAAFT2
+n_features: 451
+simples: 10000
+
+--------------- start ---------------
+raw dataset shape:
+df4.shape:  (20000, 442)
+---------------------
+concat dataframe: axis=1(col):
+df4_concat.shape:  (20000, 451)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (20000, 451)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+---------------------------- 02 complete end ----------------------------

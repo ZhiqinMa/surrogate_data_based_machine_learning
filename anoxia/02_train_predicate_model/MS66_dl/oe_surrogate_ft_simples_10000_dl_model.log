@@ -1,0 +1,2447 @@
+---------------------------- Run start python scripts -----------------------------
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS66
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: CNN_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/anoxia/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS66/data/merge_surrogate_FT_simples_10000_train_S5_S4.csv
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_1.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_3.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.50200, saving model to models\surrogate_FT_simples_10000_CNN_model_4.h5
+
+Epoch 2: val_accuracy improved from 0.50200 to 0.99988, saving model to models\surrogate_FT_simples_10000_CNN_model_4.h5
+
+Epoch 3: val_accuracy did not improve from 0.99988
+
+Epoch 4: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_4.h5
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+Epoch 9: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99988, saving model to models\surrogate_FT_simples_10000_CNN_model_5.h5
+
+Epoch 2: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_5.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_6.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99975, saving model to models\surrogate_FT_simples_10000_CNN_model_7.h5
+
+Epoch 2: val_accuracy improved from 0.99975 to 0.99988, saving model to models\surrogate_FT_simples_10000_CNN_model_7.h5
+
+Epoch 3: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_7.h5
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+Epoch 8: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_8.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_model_9.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: CNN_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 133.0 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: CNN_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 1.0
+# 5 >> accuracy: 1.0
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_10000_CNN_model_train_S5_S4.txt
+
+Running time 23.3 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+tsid: 2
+features: 220
+sw_width: 208
+
+03_sliding_window_data directory already exists!
+S1.shape: (416, 2)
+success-> sliding_window_features_shape (real=(416-208+1, 220)):  (209, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+DL_model: CNN_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (209, 220)
+X_test_array.shape:  (209, 220, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (209, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+DL_model: CNN_model
+sw_width: 208
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -20.481013 -10.5 -8.005155
+sliding_window_S1: 208
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [4,2]
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[4,2].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[4,2].png
+Ran in 2.67s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [4,2]
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_model_[4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_model_[4,2].png
+Ran in 20.03s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6]
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[8,6].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[8,6].png
+Ran in 2.60s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6]
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_model_[8,6].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_model_[8,6].png
+Ran in 20.75s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6,4,2]
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[8,6,4,2].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[8,6,4,2].png
+Ran in 2.86s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6,4,2]
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_model_[8,6,4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_model_[8,6,4,2].png
+Ran in 28.26s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: all
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_all.csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_all.png
+Ran in 4.07s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: all
+DL_model: CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_model_all.png
+Ran in 64.71s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+tsid: 4
+features: 220
+sw_width: 148
+
+03_sliding_window_data directory already exists!
+S3.shape: (297, 2)
+success-> sliding_window_features_shape (real=(297-148+1, 220)):  (150, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+DL_model: CNN_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (150, 220)
+X_test_array.shape:  (150, 220, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (150, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+DL_model: CNN_model
+sw_width: 148
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -95.770526 -85.8 -83.722374
+sliding_window_S3: 148
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS66
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: three_head_CNN_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/anoxia/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS66/data/merge_surrogate_FT_simples_10000_train_S5_S4.csv
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_1.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_3.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_4.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_5.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_6.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_7.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_8.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_three_head_CNN_model_9.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: three_head_CNN_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 308.9 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: three_head_CNN_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 1.0
+# 5 >> accuracy: 1.0
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_10000_three_head_CNN_model_train_S5_S4.txt
+
+Running time 22.9 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+tsid: 2
+features: 220
+sw_width: 208
+
+03_sliding_window_data directory already exists!
+S1.shape: (416, 2)
+success-> sliding_window_features_shape (real=(416-208+1, 220)):  (209, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+DL_model: three_head_CNN_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (209, 220)
+X_test_array.shape:  (209, 220, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (209, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+DL_model: three_head_CNN_model
+sw_width: 208
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -20.481013 -10.5 -8.005155
+sliding_window_S1: 208
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [4,2]
+DL_model: three_head_CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_three_head_CNN_model_[4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_three_head_CNN_model_[4,2].png
+Ran in 16.07s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6]
+DL_model: three_head_CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_three_head_CNN_model_[8,6].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_three_head_CNN_model_[8,6].png
+Ran in 15.87s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6,4,2]
+DL_model: three_head_CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_three_head_CNN_model_[8,6,4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_three_head_CNN_model_[8,6,4,2].png
+Ran in 23.36s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: all
+DL_model: three_head_CNN_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_three_head_CNN_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_three_head_CNN_model_all.png
+Ran in 57.42s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+tsid: 4
+features: 220
+sw_width: 148
+
+03_sliding_window_data directory already exists!
+S3.shape: (297, 2)
+success-> sliding_window_features_shape (real=(297-148+1, 220)):  (150, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+DL_model: three_head_CNN_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (150, 220)
+X_test_array.shape:  (150, 220, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (150, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+DL_model: three_head_CNN_model
+sw_width: 148
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -95.770526 -85.8 -83.722374
+sliding_window_S3: 148
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS66
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: LSTM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/anoxia/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS66/data/merge_surrogate_FT_simples_10000_train_S5_S4.csv
+
+Epoch 1: val_accuracy improved from -inf to 0.99975, saving model to models\surrogate_FT_simples_10000_LSTM_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 0.99975
+
+Epoch 3: val_accuracy improved from 0.99975 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_0.h5
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+Epoch 8: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.90075, saving model to models\surrogate_FT_simples_10000_LSTM_model_1.h5
+
+Epoch 2: val_accuracy improved from 0.90075 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_1.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99975, saving model to models\surrogate_FT_simples_10000_LSTM_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 0.99975
+
+Epoch 3: val_accuracy improved from 0.99975 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_2.h5
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+Epoch 8: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.82525, saving model to models\surrogate_FT_simples_10000_LSTM_model_3.h5
+
+Epoch 2: val_accuracy improved from 0.82525 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_3.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.93975, saving model to models\surrogate_FT_simples_10000_LSTM_model_4.h5
+
+Epoch 2: val_accuracy improved from 0.93975 to 0.99900, saving model to models\surrogate_FT_simples_10000_LSTM_model_4.h5
+
+Epoch 3: val_accuracy improved from 0.99900 to 0.99925, saving model to models\surrogate_FT_simples_10000_LSTM_model_4.h5
+
+Epoch 4: val_accuracy improved from 0.99925 to 0.99937, saving model to models\surrogate_FT_simples_10000_LSTM_model_4.h5
+
+Epoch 5: val_accuracy did not improve from 0.99937
+
+Epoch 6: val_accuracy did not improve from 0.99937
+
+Epoch 7: val_accuracy improved from 0.99937 to 0.99950, saving model to models\surrogate_FT_simples_10000_LSTM_model_4.h5
+
+Epoch 8: val_accuracy improved from 0.99950 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_4.h5
+
+Epoch 9: val_accuracy did not improve from 1.00000
+
+Epoch 10: val_accuracy did not improve from 1.00000
+
+Epoch 11: val_accuracy did not improve from 1.00000
+
+Epoch 12: val_accuracy did not improve from 1.00000
+
+Epoch 13: val_accuracy did not improve from 1.00000
+Epoch 13: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_5.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99988, saving model to models\surrogate_FT_simples_10000_LSTM_model_6.h5
+
+Epoch 2: val_accuracy did not improve from 0.99988
+
+Epoch 3: val_accuracy did not improve from 0.99988
+
+Epoch 4: val_accuracy did not improve from 0.99988
+
+Epoch 5: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_6.h5
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+
+Epoch 10: val_accuracy did not improve from 1.00000
+Epoch 10: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99925, saving model to models\surrogate_FT_simples_10000_LSTM_model_7.h5
+
+Epoch 2: val_accuracy improved from 0.99925 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_7.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99975, saving model to models\surrogate_FT_simples_10000_LSTM_model_8.h5
+
+Epoch 2: val_accuracy did not improve from 0.99975
+
+Epoch 3: val_accuracy improved from 0.99975 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_8.h5
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+
+Epoch 8: val_accuracy did not improve from 1.00000
+Epoch 8: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99638, saving model to models\surrogate_FT_simples_10000_LSTM_model_9.h5
+
+Epoch 2: val_accuracy improved from 0.99638 to 0.99988, saving model to models\surrogate_FT_simples_10000_LSTM_model_9.h5
+
+Epoch 3: val_accuracy did not improve from 0.99988
+
+Epoch 4: val_accuracy did not improve from 0.99988
+
+Epoch 5: val_accuracy did not improve from 0.99988
+
+Epoch 6: val_accuracy did not improve from 0.99988
+
+Epoch 7: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_LSTM_model_9.h5
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+
+Epoch 10: val_accuracy did not improve from 1.00000
+
+Epoch 11: val_accuracy did not improve from 1.00000
+
+Epoch 12: val_accuracy did not improve from 1.00000
+Epoch 12: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: LSTM_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 475.0 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: LSTM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 0.9993749856948853
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 0.999875009059906
+# 5 >> accuracy: 0.999750018119812
+# 6 >> accuracy: 0.999750018119812
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 0.999875009059906
+# 9 >> accuracy: 0.999750018119812
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_10000_LSTM_model_train_S5_S4.txt
+
+Running time 50.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+tsid: 2
+features: 220
+sw_width: 208
+
+03_sliding_window_data directory already exists!
+S1.shape: (416, 2)
+success-> sliding_window_features_shape (real=(416-208+1, 220)):  (209, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+DL_model: LSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (209, 220)
+X_test_array.shape:  (209, 220, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (209, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+DL_model: LSTM_model
+sw_width: 208
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -20.481013 -10.5 -8.005155
+sliding_window_S1: 208
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [4,2]
+DL_model: LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_LSTM_model_[4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_LSTM_model_[4,2].png
+Ran in 28.48s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6]
+DL_model: LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_LSTM_model_[8,6].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_LSTM_model_[8,6].png
+Ran in 21.77s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6,4,2]
+DL_model: LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_LSTM_model_[8,6,4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_LSTM_model_[8,6,4,2].png
+Ran in 33.78s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: all
+DL_model: LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_LSTM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_LSTM_model_all.png
+Ran in 92.47s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+tsid: 4
+features: 220
+sw_width: 148
+
+03_sliding_window_data directory already exists!
+S3.shape: (297, 2)
+success-> sliding_window_features_shape (real=(297-148+1, 220)):  (150, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+DL_model: LSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (150, 220)
+X_test_array.shape:  (150, 220, 1)
+--------------- prediction ... ---------------
+y_pred_list.shape (150, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+DL_model: LSTM_model
+sw_width: 148
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -95.770526 -85.8 -83.722374
+sliding_window_S3: 148
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS66
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: CNN_LSTM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/anoxia/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS66/data/merge_surrogate_FT_simples_10000_train_S5_S4.csv
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99988, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 2: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_1.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99963, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 2: val_accuracy improved from 0.99963 to 0.99988, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 3: val_accuracy did not improve from 0.99988
+
+Epoch 4: val_accuracy did not improve from 0.99988
+
+Epoch 5: val_accuracy did not improve from 0.99988
+
+Epoch 6: val_accuracy did not improve from 0.99988
+
+Epoch 7: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_3.h5
+
+Epoch 8: val_accuracy did not improve from 1.00000
+
+Epoch 9: val_accuracy did not improve from 1.00000
+
+Epoch 10: val_accuracy did not improve from 1.00000
+
+Epoch 11: val_accuracy did not improve from 1.00000
+
+Epoch 12: val_accuracy did not improve from 1.00000
+Epoch 12: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_4.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99975, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_5.h5
+
+Epoch 2: val_accuracy improved from 0.99975 to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_5.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99975, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_6.h5
+
+Epoch 2: val_accuracy improved from 0.99975 to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_6.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_7.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_8.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_CNN_LSTM_model_9.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: CNN_LSTM_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 224.8 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: CNN_LSTM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 1.0
+# 4 >> accuracy: 1.0
+# 5 >> accuracy: 1.0
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_10000_CNN_LSTM_model_train_S5_S4.txt
+
+Running time 53.8 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+tsid: 2
+features: 220
+sw_width: 208
+
+03_sliding_window_data directory already exists!
+S1.shape: (416, 2)
+success-> sliding_window_features_shape (real=(416-208+1, 220)):  (209, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+DL_model: CNN_LSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (209, 220)
+X_test_array.shape:  (209, 220, 1)
+--------------- prediction ... ---------------
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+textX=(samples, steps, length, channels): (209, 10, 22, 1)
+y_pred_list.shape (209, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+DL_model: CNN_LSTM_model
+sw_width: 208
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -20.481013 -10.5 -8.005155
+sliding_window_S1: 208
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [4,2]
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_LSTM_model_[4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_LSTM_model_[4,2].png
+Ran in 50.04s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6]
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_LSTM_model_[8,6].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_LSTM_model_[8,6].png
+Ran in 49.35s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6,4,2]
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_LSTM_model_[8,6,4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_LSTM_model_[8,6,4,2].png
+Ran in 75.14s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: all
+DL_model: CNN_LSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_CNN_LSTM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_CNN_LSTM_model_all.png
+Ran in 164.08s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+tsid: 4
+features: 220
+sw_width: 148
+
+03_sliding_window_data directory already exists!
+S3.shape: (297, 2)
+success-> sliding_window_features_shape (real=(297-148+1, 220)):  (150, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+DL_model: CNN_LSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (150, 220)
+X_test_array.shape:  (150, 220, 1)
+--------------- prediction ... ---------------
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+textX=(samples, steps, length, channels): (150, 10, 22, 1)
+y_pred_list.shape (150, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+DL_model: CNN_LSTM_model
+sw_width: 148
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -95.770526 -85.8 -83.722374
+sliding_window_S3: 148
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+Using GPU for TensorFlow.
+------------------------------ 01 Start run ------------------------------
+Data_folder: MS66
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: ConvLSTM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/anoxia/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/MS66/data/merge_surrogate_FT_simples_10000_train_S5_S4.csv
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_0.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#1: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99988, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_1.h5
+
+Epoch 2: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_1.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#2: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_2.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#3: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_3.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#4: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_4.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#5: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_5.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#6: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_6.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#7: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 0.99988, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_7.h5
+
+Epoch 2: val_accuracy improved from 0.99988 to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_7.h5
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+
+Epoch 7: val_accuracy did not improve from 1.00000
+Epoch 7: early stopping
+>#8: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_8.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#9: 100.000
+
+Epoch 1: val_accuracy improved from -inf to 1.00000, saving model to models\surrogate_FT_simples_10000_ConvLSTM_model_9.h5
+
+Epoch 2: val_accuracy did not improve from 1.00000
+
+Epoch 3: val_accuracy did not improve from 1.00000
+
+Epoch 4: val_accuracy did not improve from 1.00000
+
+Epoch 5: val_accuracy did not improve from 1.00000
+
+Epoch 6: val_accuracy did not improve from 1.00000
+Epoch 6: early stopping
+>#10: 100.000
+------------------ summarize results -------------------------
+DL_model: ConvLSTM_model
+scores: [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 920.3 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+DL_model: ConvLSTM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+# 0 >> accuracy: 1.0
+# 1 >> accuracy: 1.0
+# 2 >> accuracy: 1.0
+# 3 >> accuracy: 0.999875009059906
+# 4 >> accuracy: 0.999875009059906
+# 5 >> accuracy: 1.0
+# 6 >> accuracy: 1.0
+# 7 >> accuracy: 1.0
+# 8 >> accuracy: 1.0
+# 9 >> accuracy: 1.0
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_FT_simples_10000_ConvLSTM_model_train_S5_S4.txt
+
+Running time 56.8 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+tsid: 2
+features: 220
+sw_width: 208
+
+03_sliding_window_data directory already exists!
+S1.shape: (416, 2)
+success-> sliding_window_features_shape (real=(416-208+1, 220)):  (209, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+DL_model: ConvLSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (209, 220)
+X_test_array.shape:  (209, 220, 1)
+--------------- prediction ... ---------------
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (209, 10, 1, 22, 1)
+y_pred_list.shape (209, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S1
+Variable_label: Mo
+DL_model: ConvLSTM_model
+sw_width: 208
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -20.481013 -10.5 -8.005155
+sliding_window_S1: 208
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [4,2]
+DL_model: ConvLSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_ConvLSTM_model_[4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_ConvLSTM_model_[4,2].png
+Ran in 16.85s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6]
+DL_model: ConvLSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_ConvLSTM_model_[8,6].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_ConvLSTM_model_[8,6].png
+Ran in 17.47s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: [8,6,4,2]
+DL_model: ConvLSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=8
+Complete for forced tsid=6
+Complete for forced tsid=4
+Complete for forced tsid=2
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=8
+Complete for null tsid=6
+Complete for null tsid=4
+Complete for null tsid=2
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_ConvLSTM_model_[8,6,4,2].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_ConvLSTM_model_[8,6,4,2].png
+Ran in 25.47s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 07 Start ROC for dl ------------------------------
+surr_type: FT
+simples: 10000
+ID_merge_tsid: all
+DL_model: ConvLSTM_model
+repeats: 10
+features: 220
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/FT directory already exists!
+07_roc_data_and_figures_sdml/data/FT/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/FT directory already exists!
+
+07_roc_data_and_figures_sdml/figures/FT/ROC directory already exists!
+
+len_eval_pts = 20
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+Complete for forced tsid=5
+Complete for forced tsid=6
+Complete for forced tsid=7
+Complete for forced tsid=8
+Complete for forced tsid=9
+Complete for forced tsid=10
+Complete for forced tsid=11
+Complete for forced tsid=12
+Complete for forced tsid=13
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+Complete for null tsid=5
+Complete for null tsid=6
+Complete for null tsid=7
+Complete for null tsid=8
+Complete for null tsid=9
+Complete for null tsid=10
+Complete for null tsid=11
+Complete for null tsid=12
+Complete for null tsid=13
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/FT/ROC/df_roc_surrogate_FT_simples_10000_ConvLSTM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/FT/ROC/figure_roc_surrogate_FT_simples_10000_ConvLSTM_model_all.png
+Ran in 68.58s
+------------------------------ 07 Completed ROC for dl ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+tsid: 4
+features: 220
+sw_width: 148
+
+03_sliding_window_data directory already exists!
+S3.shape: (297, 2)
+success-> sliding_window_features_shape (real=(297-148+1, 220)):  (150, 220)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+DL_model: ConvLSTM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+X_test.shape (150, 220)
+X_test_array.shape:  (150, 220, 1)
+--------------- prediction ... ---------------
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+textX=(samples, time steps, rows, cols, channels): (150, 10, 1, 22, 1)
+y_pred_list.shape (150, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: FT
+simples: 10000
+ID_train: S5_S4
+ID_test: S3
+Variable_label: Mo
+DL_model: ConvLSTM_model
+sw_width: 148
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/FT directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/FT directory already exists!
+
+Record_Core: MS66
+start_age, Transition, end_age: -95.770526 -85.8 -83.722374
+sliding_window_S3: 148
+------------------------------ 05 Completed plots ------------------------------
+
+---------------------------- complete end ----------------------------

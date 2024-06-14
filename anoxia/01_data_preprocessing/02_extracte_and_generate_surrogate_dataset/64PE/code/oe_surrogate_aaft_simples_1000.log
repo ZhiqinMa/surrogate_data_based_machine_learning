@@ -1,0 +1,201 @@
+---------------------------- 01 Run start python scripts -----------------------------
+tsid: 5
+Period: S3
+simples: 1000
+surr_type: AAFT
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S3.shape: (376, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 188)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 188)
+surr1 successfully.
+surr_df.shape:  (2000, 189)
+
+------------------- saved file successfully -------------------
+tsid: 7
+Period: S4
+simples: 1000
+surr_type: AAFT
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S4.shape: (435, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 217)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 217)
+surr1 successfully.
+surr_df.shape:  (2000, 218)
+
+------------------- saved file successfully -------------------
+tsid: 9
+Period: S5
+simples: 1000
+surr_type: AAFT
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S5.shape: (324, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 162)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 162)
+surr1 successfully.
+surr_df.shape:  (2000, 163)
+
+------------------- saved file successfully -------------------
+tsid: 10
+Period: S6
+simples: 1000
+surr_type: AAFT
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S6.shape: (212, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 106)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 106)
+surr1 successfully.
+surr_df.shape:  (2000, 107)
+
+------------------- saved file successfully -------------------
+tsid: 11
+Period: S7
+simples: 1000
+surr_type: AAFT
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S7.shape: (290, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 145)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 145)
+surr1 successfully.
+surr_df.shape:  (2000, 146)
+
+------------------- saved file successfully -------------------
+tsid: 12
+Period: S8
+simples: 1000
+surr_type: AAFT
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S8.shape: (232, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 116)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 116)
+surr1 successfully.
+surr_df.shape:  (2000, 117)
+
+------------------- saved file successfully -------------------
+tsid: 13
+Period: S9
+simples: 1000
+surr_type: AAFT
+Variable_label: Mo
+
+../data directory already exists!
+
+df.shape: (10048, 8)
+df_S9.shape: (201, 2)
+extract successfully.
+------------------------------------
+Load library of generate surrogate datasets...
+surr_df0.shape: (simples, sliding_window) =  (1000, 100)
+surr0 successfully.
+surr_df1.shape: (simples, sliding_window):  (1000, 100)
+surr1 successfully.
+surr_df.shape:  (2000, 101)
+
+------------------- saved file successfully -------------------
+---------------------------- 01 complete end ----------------------------
+
+---------------------------- 02 Run merge_train ----------------------------
+tsid_S9: 13
+tsid_S8: 12
+tsid_S7: 11
+ID_train_S9: S9
+ID_train_S8: S8
+ID_train_S7: S7
+surr_type: AAFT
+n_features: 221
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df9.shape:  (2000, 101)
+df8.shape:  (2000, 117)
+df7.shape:  (2000, 146)
+---------------------
+concat dataframe: axis=1(col):
+df9_concat.shape:  (2000, 221)
+df8_concat.shape:  (2000, 221)
+df7_concat.shape:  (2000, 221)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (6000, 221)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+tsid_S6: 10
+tsid_S5: 9
+tsid_S4: 7
+tsid_S3: 5
+ID_test_S6: S6
+ID_test_S5: S5
+ID_test_S4: S4
+ID_test_S3: S3
+surr_type: AAFT
+n_features: 221
+simples: 1000
+
+--------------- start ---------------
+raw dataset shape:
+df6.shape:  (2000, 107)
+df5.shape:  (2000, 163)
+df4.shape:  (2000, 218)
+df3.shape:  (2000, 189)
+---------------------
+concat dataframe: axis=1(col):
+df6_concat.shape:  (2000, 221)
+df5_concat.shape:  (2000, 221)
+df4_concat.shape:  (2000, 221)
+df3_concat.shape:  (2000, 221)
+---------------------
+concat dataframe axis=0(row):
+df.shape:  (8000, 221)
+
+------------------------------ Successful ------------------------------
+------------------------------ Completed ------------------------------
+---------------------------- 02 complete end ----------------------------

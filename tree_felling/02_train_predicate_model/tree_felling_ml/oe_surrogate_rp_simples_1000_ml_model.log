@@ -1,0 +1,2171 @@
+---------------------------- Run start python scripts -----------------------------
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: tree_felling
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: SVM_model
+repeats: 10
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/tree_felling/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/tree_felling/data/merge_surrogate_RP_simples_1000_train_BMIII_PI.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: SVM_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 81.1 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: SVM_model
+repeats: 10
+
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_RP_simples_1000_SVM_model_train_BMIII_PI.txt
+
+Running time 2.8 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+tsid: 2
+features: 100
+sw_width: 60
+
+PII.shape: (246, 2)
+success-> sliding_window_features_shape (real=(246-60+1, 100)):  (187, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+ML_model: SVM_model
+repeats: 10
+
+df_X_test.shape (187, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (187, 1)
+y_pred_list.shape: (187, 2)
+y_pred_list.shape: (187, 3)
+y_pred_list.shape: (187, 4)
+y_pred_list.shape: (187, 5)
+y_pred_list.shape: (187, 6)
+y_pred_list.shape: (187, 7)
+y_pred_list.shape: (187, 8)
+y_pred_list.shape: (187, 9)
+y_pred_list.shape: (187, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+DL_model: SVM_model
+sw_width: 60
+tsid: 2
+
+Record_period: construction_activity_PII
+start_age, transition_start, transition_end: 873 1118 1157
+sliding_window_PII: 60
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [0,1]
+ML_model: SVM_model
+repeats: 10
+features: 100
+
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[0,1].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[0,1].png
+Ran in 1.75s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [0,1]
+ML_model: SVM_model
+repeats: 10
+features: 100
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_SVM_model_[0,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_SVM_model_[0,1].png
+Ran in 1.97s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [2,3,4]
+ML_model: SVM_model
+repeats: 10
+features: 100
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_[2,3,4].csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_[2,3,4].png
+Ran in 1.72s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [2,3,4]
+ML_model: SVM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_SVM_model_[2,3,4].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_SVM_model_[2,3,4].png
+Ran in 2.03s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 06 Start ROC for variance and lag-1 autocorrelation ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 100
+
+06_roc_data_and_figures_var_corr directory already exists!
+06_roc_data_and_figures_var_corr/data directory already exists!
+06_roc_data_and_figures_var_corr/data/ROC directory already exists!
+06_roc_data_and_figures_var_corr/figures directory already exists!
+06_roc_data_and_figures_var_corr/figures/ROC directory already exists!
+len_eval_pts= 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 06_roc_data_and_figures_var_corr/data/ROC/df_roc_var_corr_all.csv
+Exported ROC figure to 06_roc_data_and_figures_var_corr/figures/ROC/figure_roc_var_corr_all.png
+Ran in 2.02s
+------------------------------ 06 Completed ROC for variance and lag-1 autocorrelation ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: all
+ML_model: SVM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_SVM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_SVM_model_all.png
+Ran in 2.76s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+tsid: 3
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+EPIII.shape: (59, 2)
+success-> sliding_window_features_shape (real=(59-20+1, 100)):  (40, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+ML_model: SVM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (40, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (40, 1)
+y_pred_list.shape: (40, 2)
+y_pred_list.shape: (40, 3)
+y_pred_list.shape: (40, 4)
+y_pred_list.shape: (40, 5)
+y_pred_list.shape: (40, 6)
+y_pred_list.shape: (40, 7)
+y_pred_list.shape: (40, 8)
+y_pred_list.shape: (40, 9)
+y_pred_list.shape: (40, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+DL_model: SVM_model
+sw_width: 20
+tsid: 3
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_EPIII
+start_age, transition_start, transition_end: 1157 1215 1217
+sliding_window_EPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+tsid: 4
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+LPIII.shape: (67, 2)
+success-> sliding_window_features_shape (real=(67-20+1, 100)):  (48, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+ML_model: SVM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (48, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (48, 1)
+y_pred_list.shape: (48, 2)
+y_pred_list.shape: (48, 3)
+y_pred_list.shape: (48, 4)
+y_pred_list.shape: (48, 5)
+y_pred_list.shape: (48, 6)
+y_pred_list.shape: (48, 7)
+y_pred_list.shape: (48, 8)
+y_pred_list.shape: (48, 9)
+y_pred_list.shape: (48, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+DL_model: SVM_model
+sw_width: 20
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_LPIII
+start_age, transition_start, transition_end: 1217 1283 1300
+sliding_window_LPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: tree_felling
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: Bagging_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/tree_felling/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/tree_felling/data/merge_surrogate_RP_simples_1000_train_BMIII_PI.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Bagging_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 118.2 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: Bagging_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_RP_simples_1000_Bagging_model_train_BMIII_PI.txt
+
+Running time 1.6 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+tsid: 2
+features: 100
+sw_width: 60
+
+03_sliding_window_data directory already exists!
+PII.shape: (246, 2)
+success-> sliding_window_features_shape (real=(246-60+1, 100)):  (187, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+ML_model: Bagging_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (187, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (187, 1)
+y_pred_list.shape: (187, 2)
+y_pred_list.shape: (187, 3)
+y_pred_list.shape: (187, 4)
+y_pred_list.shape: (187, 5)
+y_pred_list.shape: (187, 6)
+y_pred_list.shape: (187, 7)
+y_pred_list.shape: (187, 8)
+y_pred_list.shape: (187, 9)
+y_pred_list.shape: (187, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+DL_model: Bagging_model
+sw_width: 60
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_PII
+start_age, transition_start, transition_end: 873 1118 1157
+sliding_window_PII: 60
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [0,1]
+ML_model: Bagging_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_Bagging_model_[0,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_Bagging_model_[0,1].png
+Ran in 2.31s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [2,3,4]
+ML_model: Bagging_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_Bagging_model_[2,3,4].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_Bagging_model_[2,3,4].png
+Ran in 2.58s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: all
+ML_model: Bagging_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_Bagging_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_Bagging_model_all.png
+Ran in 3.39s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+tsid: 3
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+EPIII.shape: (59, 2)
+success-> sliding_window_features_shape (real=(59-20+1, 100)):  (40, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+ML_model: Bagging_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (40, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (40, 1)
+y_pred_list.shape: (40, 2)
+y_pred_list.shape: (40, 3)
+y_pred_list.shape: (40, 4)
+y_pred_list.shape: (40, 5)
+y_pred_list.shape: (40, 6)
+y_pred_list.shape: (40, 7)
+y_pred_list.shape: (40, 8)
+y_pred_list.shape: (40, 9)
+y_pred_list.shape: (40, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+DL_model: Bagging_model
+sw_width: 20
+tsid: 3
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_EPIII
+start_age, transition_start, transition_end: 1157 1215 1217
+sliding_window_EPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+tsid: 4
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+LPIII.shape: (67, 2)
+success-> sliding_window_features_shape (real=(67-20+1, 100)):  (48, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+ML_model: Bagging_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (48, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (48, 1)
+y_pred_list.shape: (48, 2)
+y_pred_list.shape: (48, 3)
+y_pred_list.shape: (48, 4)
+y_pred_list.shape: (48, 5)
+y_pred_list.shape: (48, 6)
+y_pred_list.shape: (48, 7)
+y_pred_list.shape: (48, 8)
+y_pred_list.shape: (48, 9)
+y_pred_list.shape: (48, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+DL_model: Bagging_model
+sw_width: 20
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_LPIII
+start_age, transition_start, transition_end: 1217 1283 1300
+sliding_window_LPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: tree_felling
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: RF_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/tree_felling/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/tree_felling/data/merge_surrogate_RP_simples_1000_train_BMIII_PI.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: RF_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 19.4 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: RF_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_RP_simples_1000_RF_model_train_BMIII_PI.txt
+
+Running time 1.5 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+tsid: 2
+features: 100
+sw_width: 60
+
+03_sliding_window_data directory already exists!
+PII.shape: (246, 2)
+success-> sliding_window_features_shape (real=(246-60+1, 100)):  (187, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+ML_model: RF_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (187, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (187, 1)
+y_pred_list.shape: (187, 2)
+y_pred_list.shape: (187, 3)
+y_pred_list.shape: (187, 4)
+y_pred_list.shape: (187, 5)
+y_pred_list.shape: (187, 6)
+y_pred_list.shape: (187, 7)
+y_pred_list.shape: (187, 8)
+y_pred_list.shape: (187, 9)
+y_pred_list.shape: (187, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+DL_model: RF_model
+sw_width: 60
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_PII
+start_age, transition_start, transition_end: 873 1118 1157
+sliding_window_PII: 60
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [0,1]
+ML_model: RF_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_RF_model_[0,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_RF_model_[0,1].png
+Ran in 2.12s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [2,3,4]
+ML_model: RF_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_RF_model_[2,3,4].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_RF_model_[2,3,4].png
+Ran in 2.39s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: all
+ML_model: RF_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_RF_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_RF_model_all.png
+Ran in 2.91s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+tsid: 3
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+EPIII.shape: (59, 2)
+success-> sliding_window_features_shape (real=(59-20+1, 100)):  (40, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+ML_model: RF_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (40, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (40, 1)
+y_pred_list.shape: (40, 2)
+y_pred_list.shape: (40, 3)
+y_pred_list.shape: (40, 4)
+y_pred_list.shape: (40, 5)
+y_pred_list.shape: (40, 6)
+y_pred_list.shape: (40, 7)
+y_pred_list.shape: (40, 8)
+y_pred_list.shape: (40, 9)
+y_pred_list.shape: (40, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+DL_model: RF_model
+sw_width: 20
+tsid: 3
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_EPIII
+start_age, transition_start, transition_end: 1157 1215 1217
+sliding_window_EPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+tsid: 4
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+LPIII.shape: (67, 2)
+success-> sliding_window_features_shape (real=(67-20+1, 100)):  (48, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+ML_model: RF_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (48, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (48, 1)
+y_pred_list.shape: (48, 2)
+y_pred_list.shape: (48, 3)
+y_pred_list.shape: (48, 4)
+y_pred_list.shape: (48, 5)
+y_pred_list.shape: (48, 6)
+y_pred_list.shape: (48, 7)
+y_pred_list.shape: (48, 8)
+y_pred_list.shape: (48, 9)
+y_pred_list.shape: (48, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+DL_model: RF_model
+sw_width: 20
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_LPIII
+start_age, transition_start, transition_end: 1217 1283 1300
+sliding_window_LPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: tree_felling
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: GBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/tree_felling/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/tree_felling/data/merge_surrogate_RP_simples_1000_train_BMIII_PI.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: GBM_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 57.3 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: GBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_RP_simples_1000_GBM_model_train_BMIII_PI.txt
+
+Running time 1.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+tsid: 2
+features: 100
+sw_width: 60
+
+03_sliding_window_data directory already exists!
+PII.shape: (246, 2)
+success-> sliding_window_features_shape (real=(246-60+1, 100)):  (187, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+ML_model: GBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (187, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (187, 1)
+y_pred_list.shape: (187, 2)
+y_pred_list.shape: (187, 3)
+y_pred_list.shape: (187, 4)
+y_pred_list.shape: (187, 5)
+y_pred_list.shape: (187, 6)
+y_pred_list.shape: (187, 7)
+y_pred_list.shape: (187, 8)
+y_pred_list.shape: (187, 9)
+y_pred_list.shape: (187, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+DL_model: GBM_model
+sw_width: 60
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_PII
+start_age, transition_start, transition_end: 873 1118 1157
+sliding_window_PII: 60
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [0,1]
+ML_model: GBM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_GBM_model_[0,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_GBM_model_[0,1].png
+Ran in 1.51s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [2,3,4]
+ML_model: GBM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_GBM_model_[2,3,4].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_GBM_model_[2,3,4].png
+Ran in 1.58s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: all
+ML_model: GBM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_GBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_GBM_model_all.png
+Ran in 1.68s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+tsid: 3
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+EPIII.shape: (59, 2)
+success-> sliding_window_features_shape (real=(59-20+1, 100)):  (40, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+ML_model: GBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (40, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (40, 1)
+y_pred_list.shape: (40, 2)
+y_pred_list.shape: (40, 3)
+y_pred_list.shape: (40, 4)
+y_pred_list.shape: (40, 5)
+y_pred_list.shape: (40, 6)
+y_pred_list.shape: (40, 7)
+y_pred_list.shape: (40, 8)
+y_pred_list.shape: (40, 9)
+y_pred_list.shape: (40, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+DL_model: GBM_model
+sw_width: 20
+tsid: 3
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_EPIII
+start_age, transition_start, transition_end: 1157 1215 1217
+sliding_window_EPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+tsid: 4
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+LPIII.shape: (67, 2)
+success-> sliding_window_features_shape (real=(67-20+1, 100)):  (48, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+ML_model: GBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (48, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (48, 1)
+y_pred_list.shape: (48, 2)
+y_pred_list.shape: (48, 3)
+y_pred_list.shape: (48, 4)
+y_pred_list.shape: (48, 5)
+y_pred_list.shape: (48, 6)
+y_pred_list.shape: (48, 7)
+y_pred_list.shape: (48, 8)
+y_pred_list.shape: (48, 9)
+y_pred_list.shape: (48, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+DL_model: GBM_model
+sw_width: 20
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_LPIII
+start_age, transition_start, transition_end: 1217 1283 1300
+sliding_window_LPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: tree_felling
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: Xgboost_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/tree_felling/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/tree_felling/data/merge_surrogate_RP_simples_1000_train_BMIII_PI.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: Xgboost_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 10.7 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: Xgboost_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_RP_simples_1000_Xgboost_model_train_BMIII_PI.txt
+
+Running time 1.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+tsid: 2
+features: 100
+sw_width: 60
+
+03_sliding_window_data directory already exists!
+PII.shape: (246, 2)
+success-> sliding_window_features_shape (real=(246-60+1, 100)):  (187, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+ML_model: Xgboost_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (187, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (187, 1)
+y_pred_list.shape: (187, 2)
+y_pred_list.shape: (187, 3)
+y_pred_list.shape: (187, 4)
+y_pred_list.shape: (187, 5)
+y_pred_list.shape: (187, 6)
+y_pred_list.shape: (187, 7)
+y_pred_list.shape: (187, 8)
+y_pred_list.shape: (187, 9)
+y_pred_list.shape: (187, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+DL_model: Xgboost_model
+sw_width: 60
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_PII
+start_age, transition_start, transition_end: 873 1118 1157
+sliding_window_PII: 60
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [0,1]
+ML_model: Xgboost_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_Xgboost_model_[0,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_Xgboost_model_[0,1].png
+Ran in 1.51s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [2,3,4]
+ML_model: Xgboost_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_Xgboost_model_[2,3,4].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_Xgboost_model_[2,3,4].png
+Ran in 1.54s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: all
+ML_model: Xgboost_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_Xgboost_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_Xgboost_model_all.png
+Ran in 1.69s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+tsid: 3
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+EPIII.shape: (59, 2)
+success-> sliding_window_features_shape (real=(59-20+1, 100)):  (40, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+ML_model: Xgboost_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (40, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (40, 1)
+y_pred_list.shape: (40, 2)
+y_pred_list.shape: (40, 3)
+y_pred_list.shape: (40, 4)
+y_pred_list.shape: (40, 5)
+y_pred_list.shape: (40, 6)
+y_pred_list.shape: (40, 7)
+y_pred_list.shape: (40, 8)
+y_pred_list.shape: (40, 9)
+y_pred_list.shape: (40, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+DL_model: Xgboost_model
+sw_width: 20
+tsid: 3
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_EPIII
+start_age, transition_start, transition_end: 1157 1215 1217
+sliding_window_EPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+tsid: 4
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+LPIII.shape: (67, 2)
+success-> sliding_window_features_shape (real=(67-20+1, 100)):  (48, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+ML_model: Xgboost_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (48, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (48, 1)
+y_pred_list.shape: (48, 2)
+y_pred_list.shape: (48, 3)
+y_pred_list.shape: (48, 4)
+y_pred_list.shape: (48, 5)
+y_pred_list.shape: (48, 6)
+y_pred_list.shape: (48, 7)
+y_pred_list.shape: (48, 8)
+y_pred_list.shape: (48, 9)
+y_pred_list.shape: (48, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+DL_model: Xgboost_model
+sw_width: 20
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_LPIII
+start_age, transition_start, transition_end: 1217 1283 1300
+sliding_window_LPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+-------------------------------------------------------------------------------------
+------------------------------ 01 Start run ------------------------------
+Data_folder: tree_felling
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: LGBM_model
+repeats: 10
+
+01_evaluation_data directory already exists!
+models directory already exists!
+
+full_path= G:/surrogate_data_based_machine_learning_v4.0.0/tree_felling/01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/tree_felling/data/merge_surrogate_RP_simples_1000_train_BMIII_PI.csv
+>#1: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#2: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#3: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#4: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#5: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#6: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#7: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#8: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#9: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+>#10: [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+ 100.]
+------------------ summarize results -------------------------
+ML_model: LGBM_model
+scores: [[100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]
+ [100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100. 100.
+  100.]]
+Accuracy mean (std): 100.000% (0.000)
+
+Running time 9.6 seconds
+------------------------------ 01 Completed ------------------------------
+
+------------------------------ 02 Start Evaluation ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ML_model: LGBM_model
+repeats: 10
+
+02_evaluation_performance directory already exists!
+The results have been saved to a txt file: 02_evaluation_performance/evaluation_performance_surrogate_RP_simples_1000_LGBM_model_train_BMIII_PI.txt
+
+Running time 1.2 seconds
+------------------------------ 02 Completed Evaluation ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+tsid: 2
+features: 100
+sw_width: 60
+
+03_sliding_window_data directory already exists!
+PII.shape: (246, 2)
+success-> sliding_window_features_shape (real=(246-60+1, 100)):  (187, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+ML_model: LGBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (187, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (187, 1)
+y_pred_list.shape: (187, 2)
+y_pred_list.shape: (187, 3)
+y_pred_list.shape: (187, 4)
+y_pred_list.shape: (187, 5)
+y_pred_list.shape: (187, 6)
+y_pred_list.shape: (187, 7)
+y_pred_list.shape: (187, 8)
+y_pred_list.shape: (187, 9)
+y_pred_list.shape: (187, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: PII
+Variable_label: tree_felling
+DL_model: LGBM_model
+sw_width: 60
+tsid: 2
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_PII
+start_age, transition_start, transition_end: 873 1118 1157
+sliding_window_PII: 60
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [0,1]
+ML_model: LGBM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_LGBM_model_[0,1].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_LGBM_model_[0,1].png
+Ran in 1.49s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: [2,3,4]
+ML_model: LGBM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_LGBM_model_[2,3,4].csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_LGBM_model_[2,3,4].png
+Ran in 1.54s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 07 Start ROC for ml ------------------------------
+surr_type: RP
+simples: 1000
+ID_merge_tsid: all
+ML_model: LGBM_model
+repeats: 10
+features: 100
+
+07_roc_data_and_figures_sdml directory already exists!
+07_roc_data_and_figures_sdml/data directory already exists!
+07_roc_data_and_figures_sdml/data/RP directory already exists!
+07_roc_data_and_figures_sdml/data/RP/ROC directory already exists!
+07_roc_data_and_figures_sdml/figures directory already exists!
+07_roc_data_and_figures_sdml/figures/RP directory already exists!
+
+07_roc_data_and_figures_sdml/figures/RP/ROC directory already exists!
+
+len_eval_pts = 40
+
+----- 01 forced trajectories and compute EWS -----
+Complete for forced tsid=0
+Complete for forced tsid=1
+Complete for forced tsid=2
+Complete for forced tsid=3
+Complete for forced tsid=4
+----- 01 null trajectories and compute EWS -----
+Complete for null tsid=0
+Complete for null tsid=1
+Complete for null tsid=2
+Complete for null tsid=3
+Complete for null tsid=4
+----- 02 Compute ROC curves -----
+Exported ROC data to 07_roc_data_and_figures_sdml/data/RP/ROC/df_roc_surrogate_RP_simples_1000_LGBM_model_all.csv
+Exported ROC figure to 07_roc_data_and_figures_sdml/figures/RP/ROC/figure_roc_surrogate_RP_simples_1000_LGBM_model_all.png
+Ran in 1.61s
+------------------------------ 07 Completed ROC for ml ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+tsid: 3
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+EPIII.shape: (59, 2)
+success-> sliding_window_features_shape (real=(59-20+1, 100)):  (40, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+ML_model: LGBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (40, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (40, 1)
+y_pred_list.shape: (40, 2)
+y_pred_list.shape: (40, 3)
+y_pred_list.shape: (40, 4)
+y_pred_list.shape: (40, 5)
+y_pred_list.shape: (40, 6)
+y_pred_list.shape: (40, 7)
+y_pred_list.shape: (40, 8)
+y_pred_list.shape: (40, 9)
+y_pred_list.shape: (40, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: EPIII
+Variable_label: tree_felling
+DL_model: LGBM_model
+sw_width: 20
+tsid: 3
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_EPIII
+start_age, transition_start, transition_end: 1157 1215 1217
+sliding_window_EPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+------------------------------ 03 Start sliding windows ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+tsid: 4
+features: 100
+sw_width: 20
+
+03_sliding_window_data directory already exists!
+LPIII.shape: (67, 2)
+success-> sliding_window_features_shape (real=(67-20+1, 100)):  (48, 100)
+------------------------------ 03 Completed sliding windows ------------------------------
+
+------------------------------ 04 Start predicate ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+ML_model: LGBM_model
+repeats: 10
+
+04_prediction_data directory already exists!
+df_X_test.shape (48, 100)
+----------------------- prediction ... -----------------------
+y_pred_list.shape: (48, 1)
+y_pred_list.shape: (48, 2)
+y_pred_list.shape: (48, 3)
+y_pred_list.shape: (48, 4)
+y_pred_list.shape: (48, 5)
+y_pred_list.shape: (48, 6)
+y_pred_list.shape: (48, 7)
+y_pred_list.shape: (48, 8)
+y_pred_list.shape: (48, 9)
+y_pred_list.shape: (48, 10)
+------------------------------ 04 Completed predicate ------------------------------
+
+------------------------------ 05 Start plots ------------------------------
+surr_type: RP
+simples: 1000
+ID_train: BMIII_PI
+ID_test: LPIII
+Variable_label: tree_felling
+DL_model: LGBM_model
+sw_width: 20
+tsid: 4
+
+05_ews_data_and_figures directory already exists!
+05_ews_data_and_figures/data directory already exists!
+05_ews_data_and_figures/data/RP directory already exists!
+05_ews_data_and_figures/figures directory already exists!
+05_ews_data_and_figures/figures/RP directory already exists!
+
+Record_period: construction_activity_LPIII
+start_age, transition_start, transition_end: 1217 1283 1300
+sliding_window_LPIII: 20
+------------------------------ 05 Completed plots ------------------------------
+
+---------------------------- complete end ----------------------------
