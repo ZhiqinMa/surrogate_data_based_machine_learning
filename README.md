@@ -74,18 +74,18 @@ The Versions of Python and MATLAB have a one-to-one correspondence, otherwise th
 
 The results in the paper are obtained from the following workflow:
 
-1. **Pre-process data**. Codes to process the data are availalble in the directory `./01_data_preprocessing/01_organise__transition__ews/.` Residuals are obtained and variance and lag-1 autocorrleation are computed.
+1. **Pre-process data**. Codes to process the data are available in the directory `./01_data_preprocessing/01_organise__transition__ews/.` Residuals are obtained and variance and lag-1 autocorrelation are computed.
 
-2. **Generate the training data**. We used five different surrogate methods to generate surrogate data with different sample sizes as training data. Run
+2. **Generate the training data**. We used five different surrogate methods to generate surrogate data with different sample sizes as training data. Note: we are running from the command line interface of the Git software installation. Run
 
    ```bash
    conda activate surr_mat
    bash ./01_data_preprocessing/02_extracte_and_generate_surrogate_dataset/code/run_all_script.sh | tee oe_run_all_script.log
    ```
 
-   where generate the training data save: `./02_extracte_and_generate_surrogate_dataset/data`. Due to the large size of the generated surrogate datasets, the data was deleted before being pushed to `GitHub`. Note: we are running from the command line interface of the Git software installation.
+   where generate the training data save: `./02_extracte_and_generate_surrogate_dataset/data`. Due to the large size of the generated surrogate datasets, the data was deleted before being pushed to `GitHub`. The final compressed output is 27.5GB for the whole project. This dataset is archived on `Zenodo` at [Predicting critical transitions with surrogate data-based machine learning: Project (zenodo.org)](https://zenodo.org/records/12562316).
 
-3. **Train the surrogate data-based machine learning  (SDML) classifiers, Generate SDML predictions, and Compute ROC statistics.** Results reported in the paper take the average prediction from these 10 networks. Run
+3. **Train the surrogate data-based machine learning  (SDML) classifiers, Generate SDML predictions, and Compute ROC statistics.** Results reported in the paper take the average prediction from these 10 networks. Note: we are running from the command line interface of the Git software installation. Run 
 
    ```bash
    conda activate surr_ews
@@ -93,7 +93,7 @@ The results in the paper are obtained from the following workflow:
    bash ./02_train_predicate_model/xxx_dl/run_all_script_dl.sh | tee oe_run_all_script_dl.log
    ```
 
-   The training models and result data, which are large in volume, were deleted before being pushed to `GitHub`. Note: we are running from the command line interface of the Git software installation.
+   The training models and result data, which are large in volume, were deleted before being pushed to `GitHub`. This dataset is archived on `Zenodo` at [https://zenodo.org/records/12562316](https://zenodo.org/records/12562316).
 
 ## Data sources
 
@@ -102,3 +102,18 @@ The empirical data used in this study are available from the following sources:
 2. **Sedimentary archive** data from the Mediterranean Sea are available at the [PANGAEA](https://doi.pangaea.de/10.1594/PANGAEA.923197) data repository. Data were preprocessed according to the study [Hennekam, Rick, et al. "Early‐warning signals for marine anoxic events." Geophysical Research Letters 47.20 (2020): e2020GL089183.](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL089183)
 3. **Paleoclimate transition** data are available from the [World Data Center for Paleoclimatology](http://www.ncdc.noaa.gov/paleo/data.html), National Geophysical Data Center, Boulder, Colorado. Data were preprocessed according to the study [Dakos, Vasilis, et al. "Slowing down as an early warning signal for abrupt climate change." Proceedings of the National Academy of Sciences 105.38 (2008): 14308-14312.](https://www.pnas.org/content/105/38/14308.short)
 4. **tree-ring** data from the Southwestern United States can be accessed at the [Digital Archaeological Record](https://doi.org/10.6067/XCV82J6D7B). Data were collected by Timothy A. Kohler and Marten Scheffer and were published in [Kohler, Timothy A., et al. "Compiled Tree-ring Dates from the Southwestern United States (Restricted)." (2016)](https://core.tdar.org/dataset/399314/compiled-tree-ring-dates-from-the-southwestern-united-states-restricted) and [Marten Scheffer, et al. "Loss of resilience preceded transformations of pre-Hispanic Pueblo societies" Proceedings of the National Academy of Sciences 118.18 (2021): e2024397118.](https://www.pnas.org/doi/abs/10.1073/pnas.2024397118)
+
+## License
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+
+
