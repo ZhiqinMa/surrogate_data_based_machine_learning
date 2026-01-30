@@ -1,6 +1,8 @@
-# Predicting critical transitions with surrogate data-based machine learning
+# Predicting critical transitions with machine learning trained on surrogates of historical data  
 
 This repository contains code to accompany the publication
+
+[Zhiqin Ma](https://www.nature.com/articles/s42005-025-02172-4#auth-Zhiqin-Ma-Aff1), [Chunhua Zeng](https://www.nature.com/articles/s42005-025-02172-4#auth-Chunhua-Zeng-Aff1), [Yi-Cheng Zhang](https://www.nature.com/articles/s42005-025-02172-4#auth-Yi_Cheng-Zhang-Aff2) & [Thomas M. Bury](https://www.nature.com/articles/s42005-025-02172-4#auth-Thomas_M_-Bury-Aff3). Predicting critical transitions with machine learning trained on surrogates of historical data. *Communications Physics*, 2025, 8(1): 258.
 
 
 ## Requirements
